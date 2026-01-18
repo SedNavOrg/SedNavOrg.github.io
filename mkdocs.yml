@@ -38,6 +38,8 @@ theme:
     - content.action.view
     - search.suggest
     - search.highlight
+    - navigation.instant
+    - navigation.instant.prefetch
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
