@@ -65,3 +65,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
+  - git-committers:
+      repository: SedNavOrg/SedNavOrg.github.io
+      branch: main
