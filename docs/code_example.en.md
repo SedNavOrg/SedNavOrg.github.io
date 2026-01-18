@@ -1,5 +1,5 @@
 ```py title="add_numbers.py" 
-# Fonction pour ajouter deux nombres
+# Function to add two numbers
 def add_two_numbers(num1, num2):
     return num1 + num2
 

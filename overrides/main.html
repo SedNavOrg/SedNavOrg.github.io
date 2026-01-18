@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if i18n_file_locale != i18n_page_locale %}
+    <div class="admonition abstract">
+      <p class="admonition-title">Missing translation</p>
+      <p>This page is not yet available in English. You are viewing the French version by default.<br>
+        <a href="{{ page.edit_url | replace('/edit/', '/new/') | replace('.md', '.en.md') }}">Click here to create the English version.</a>
+      </p>
+    </div>
+  {% elif i18n_file_locale != 'fr' %}
+    <div class="admonition warning">
+      <p class="admonition-title">Translated content</p>
+      <p>This version of the page might not be up-to-date.<br> 
+        {% if config.extra.alternate is iterable %}
+            {% for alt in config.extra.alternate %}
+                {% if alt.lang == 'fr' %}
+                    <a href="{{ alt.link | url }}">Go to the original version (FR)</a>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        to see the most up-to-date information.</p>
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

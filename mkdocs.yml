@@ -4,6 +4,7 @@ repo_url: https://github.com/SedNavOrg/SedNavOrg.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   logo: assets/logo.webp
   favicon: assets/logo.png
@@ -38,8 +39,6 @@ theme:
     - content.action.view
     - search.suggest
     - search.highlight
-    - navigation.instant
-    - navigation.instant.prefetch
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -61,6 +60,16 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+          build: true
+        - locale: en
+          name: English
+          build: true
   - search
   - optimize
   - privacy
