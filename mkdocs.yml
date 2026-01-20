@@ -1,5 +1,6 @@
-site_name: My MkDocs Material Documentation
-site_url: https://sitename.example
+site_name: Documentation du projet SedNav
+site_description: Documentation du projet SedNav, un système de navigation pour bateau à voile OpenSource.
+site_url: https://SedNavOrg.github.io
 repo_url: https://github.com/SedNavOrg/SedNavOrg.github.io
 edit_uri: edit/main/docs/
 theme:
@@ -33,13 +34,20 @@ theme:
       primary: light blue
       accent: indigo
   features:
+    - content.tooltips
     - content.code.copy
     - content.code.annotate
     - content.action.edit
     - content.action.view
     - search.suggest
     - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - toc.integrate
 markdown_extensions:
+  - abbr
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -49,7 +57,9 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossaire.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -59,6 +69,8 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
 plugins:
   - i18n:
       docs_structure: suffix
@@ -79,3 +91,4 @@ plugins:
   - git-committers:
       repository: SedNavOrg/SedNavOrg.github.io
       branch: main
+  - mkdocs-nav-weight
