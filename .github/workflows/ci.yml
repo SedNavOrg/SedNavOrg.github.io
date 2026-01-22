@@ -16,6 +16,7 @@ jobs:
             docs
             includes
             overrides
+            ihm
       - name: Install pngquant
         run: |
           sudo apt-get update
