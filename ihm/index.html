@@ -921,7 +921,8 @@ Comme protocole, choisissez Signal k, comme adresse <em>Localhost</em> et comme 
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Pour installer le hotspot, le point d'accès wifi, vous pouvez utiliser cet <a href="https://github.com/SedNavOrg/SedNavOrg.github.io/blob/main/ihm/setuphotspot.sh">installateur</a> :
-<div class="language-console highlight"><span class="filename">setuphotspot.sh</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>
+<div class="language-console highlight"><span class="filename">setuphotspot.sh</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="gp">#</span>!/bin/bash
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="go">nmcli dev wifi hotspot ssid opennav password 12345678 band bg channel 6</span>
 </span></code></pre></div></p>
 </div>
 <div class="tabbed-block">
