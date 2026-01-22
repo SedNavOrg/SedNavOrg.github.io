@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#interface-homme-machine" class="md-skip">
+        <a href="#interface-de-controle" class="md-skip">
           Aller au contenu
         </a>
       
@@ -541,6 +541,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IHM
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -557,6 +575,108 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#presentation-du-systeme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Présentation du système
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#montage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Montage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Montage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation-dopenplotter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation d’OpenPlotter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-et-mise-a-jour-des-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation et mise à jour des applications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-de-signal-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation de Signal K
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-dopencpn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation d’OpenCPN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mise-en-place-du-hotspot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mise en place du Hotspot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -746,8 +866,84 @@
   
 
 
-<h1 id="interface-homme-machine">Interface Homme Machine<a class="headerlink" href="#interface-homme-machine" title="Permanent link">&para;</a></h1>
-<p>TODO: écrire</p>
+<h1 id="interface-de-controle">Interface de contrôle<a class="headerlink" href="#interface-de-controle" title="Permanent link">&para;</a></h1>
+<h2 id="presentation-du-systeme">Présentation du système<a class="headerlink" href="#presentation-du-systeme" title="Permanent link">&para;</a></h2>
+<p>L’interface de contrôle, ou Interface Homme-Machine (IHM) constitue le point central d’interaction entre l’utilisateur et le système de navigation. Elle permet de visualiser en temps réel la position du bateau, le cap, ainsi que les données issues de l’anémomètre et du pilote automatique.</p>
+<figure id="__figure-caption_1">
+<p><img alt="Schéma du rôle de l’IHM dans le système" src="../assets/ihm/image1.png" /></p>
+<figcaption>
+<p><span class="caption-prefix">Figure 1.</span> Rôle de l’IHM dans le système</p>
+</figcaption>
+</figure>
+<p>D’un point de vue logiciel, l’IHM repose sur <a href="https://signalk.org/">Signal K</a>, qui assure la centralisation et la distribution des données entre les différents sous-systèmes. <a href="https://www.opencpn.org/">OpenCPN</a> agit comme interface graphique principale pour la navigation et le pilotage.</p>
+<p>Pour la partie matérielle, tout ordinateur compatible avec OpenPlotter peut être utilisé. Néanmoins, l’ensemble du système a été développé et validé sur Raspberry Pi 4, configuration que nous recommandons. Un écran, un clavier et une souris sont nécessaires pour la configuration initiale.</p>
+<h2 id="montage">Montage<a class="headerlink" href="#montage" title="Permanent link">&para;</a></h2>
+<h3 id="installation-dopenplotter">Installation d’OpenPlotter<a class="headerlink" href="#installation-dopenplotter" title="Permanent link">&para;</a></h3>
+<p>L’installation d’OpenPlotter nécessite un second ordinateur afin de préparer la carte SD.<br />
+Télécharger l’image officielle d’OpenPlotter depuis le site officiel, puis utiliser un logiciel de flashage tel que <a href="https://etcher.balena.io/">Balena Etcher</a>.<br />
+Insérer la carte SD dans le Raspberry Pi, connecter les périphériques (écran, clavier, souris), puis démarrer le système. Lors du premier lancement, configurer la langue, le clavier et la connexion internet. Une connexion internet est indispensable pour la suite de l’installation.</p>
+<h3 id="installation-et-mise-a-jour-des-applications">Installation et mise à jour des applications<a class="headerlink" href="#installation-et-mise-a-jour-des-applications" title="Permanent link">&para;</a></h3>
+<p>Allez dans le panneau en haut à droite.<br />
+A moins d’être précisé autrement, l’installation des applications sera faite via l’application Settings (accessible depuis le bouton en haut à gauche). Dans Settings, cliquer sur Add sources puis sur add candidates. Si à un moment ultérieur vous avez besoin de mettre à jour une application, re-cliquez sur add candidates pour avoir les mises à jour.</p>
+<figure id="__figure-caption_2">
+<p><img alt="Applications disponibles dans OpenPlotter" src="../assets/ihm/image2.png" /></p>
+<figcaption>
+<p><span class="caption-prefix">Figure 2.</span> Applications disponibles dans OpenPlotter</p>
+</figcaption>
+</figure>
+<h3 id="installation-de-signal-k">Installation de Signal K<a class="headerlink" href="#installation-de-signal-k" title="Permanent link">&para;</a></h3>
+<p>Dans settings, installez <em>Signal K installer</em> :<br />
+Une fois cet <em>installer</em> installé, vous pouvez vous connecter au serveur de Signal K en vous connectant ainsi : <br />
+Ouvrir Chromium (ou Firefox) et tapez <a href="https://localhost:3000">https://localhost:3000</a> dans la barre d’adresse.<br />
+Vous pouvez aussi utiliser ceci (insérer lien vers executable quand je l’aurait mis sur le github de SedNav), qui lance automatiquement le serveur de Signal K.</p>
+<p>Une fois connecté, vous avez une demande pour créer un compte administrateur, Notez les bien quelque part !</p>
+<h3 id="installation-dopencpn">Installation d’OpenCPN<a class="headerlink" href="#installation-dopencpn" title="Permanent link">&para;</a></h3>
+<p>Comme précédemment, installez OpenCPN via settings:<br />
+Sur l’installer, cliquez sur <em>check versions</em>, puis dans <em>install</em>, sélectionnez la version <em>Backport</em> (c’est celle la plus à jour)</p>
+<figure id="__figure-caption_3">
+<p><img alt="Installateur d’OpenCPN" src="../assets/ihm/image3.png" /></p>
+<figcaption>
+<p><span class="caption-prefix">Figure 3.</span> Installateur d’OpenCPN</p>
+</figcaption>
+</figure>
+<p>Une fois OpenCPN installé, il faut connecter OpenCPN au serveur Signal K : allez dans <em>Options</em> puis dans <em>Connection</em> et dans la section <em>“configure a new connection”</em>, sélectionnez network.<br />
+Comme protocole, choisissez Signal k, comme adresse <em>Localhost</em> et comme port <em>3000</em>. Laissez l’option automatic server discovery décochée (voir figure ci-dessous).</p>
+<figure id="__figure-caption_4">
+<p><img alt="Connexion entre OpenCPN et Signal K" src="../assets/ihm/image4.png" /></p>
+<figcaption>
+<p><span class="caption-prefix">Figure 4.</span> Connexion entre OpenCPN et Signal K</p>
+</figcaption>
+</figure>
+<p>Vous pouvez de plus commencer à préparer la connexion au pilote automatique en installant le plugin pypilot.</p>
+<h3 id="mise-en-place-du-hotspot">Mise en place du Hotspot<a class="headerlink" href="#mise-en-place-du-hotspot" title="Permanent link">&para;</a></h3>
+<p>Vous avez à votre disposition 2 solutions : </p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Installateur automatique (script)</label><label for="__tabbed_1_2">Mise en place manuelle</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Pour installer le hotspot, le point d'accès wifi, vous pouvez utiliser cet <a href="https://github.com/SedNavOrg/SedNavOrg.github.io/blob/main/ihm/setuphotspot.sh">installateur</a> :
+<div class="language-console highlight"><span class="filename">setuphotspot.sh</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Dans le panneau de configuration DU Wifi, en haut à droite : <br />
+  Dans Advanced Options &gt; Create Wireless Hotspot &gt; Create New Wi-Fi Hotspot (photo)<br />
+  Créer le réseau Wifi :   </li>
+<li>Choisir le nom, le mot de passe (wifi security)  </li>
+<li>Dans Advanced Options &gt; Edit Connections   </li>
+<li>
+<p>Sélectionner le réseau créé (photo)</p>
+</li>
+<li>
+<p>Sélectionner :   </p>
+</li>
+<li>Band: B/G (2.4 GHz)  </li>
+<li>Channel: 6 (2437 MHz)</li>
+</ol>
+</div>
+</div>
+</div>
+<p>Arrivé ici, nous vous invitons à installer le reste des systèmes et à revenir ici une fois cela fait.</p>
 
 
 
@@ -770,7 +966,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="20 janvier 2026 17:01:15 UTC"><span class="timeago" datetime="2026-01-20T17:01:15+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="20 janvier 2026 17:01:15 UTC">2026-01-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="22 janvier 2026 07:54:32 UTC"><span class="timeago" datetime="2026-01-22T07:54:32+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="22 janvier 2026 07:54:32 UTC">2026-01-22</span>
   </span>
 
     
@@ -801,6 +997,11 @@
         <a href="https://github.com/vale075" class="md-author" title="@vale075">
           
           <img src="../assets/external/avatars.githubusercontent.com/u/63117317.fe356448.jpg" alt="vale075">
+        </a>
+      
+        <a href="https://github.com/Arenion" class="md-author" title="@Arenion">
+          
+          <img src="../assets/external/avatars.githubusercontent.com/u/185614576.fe356448.png" alt="Arenion">
         </a>
       
       
