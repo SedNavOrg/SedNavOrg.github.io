@@ -247,11 +247,11 @@ sens des inverter
 ///
 
 * Pour les différents câbles, vous devez brancher les mêmes câbles que ceux des cartes précédentes. Par exemple, le câble GND du compas doit être branché sur l’emplacement GND réservé au compas sur la carte. Voici une figure illustrant les différentes parties réservées pour les cartes :   
-   ![][image17]  
-  *Figure 57 : emplacement réservées de la carte*  
+![emplacement réservées de la carte](assets/pilote_auto/image22.png)  
+///figure-caption
+emplacement réservées de la carte
+///  
   
-
-
 De gauche à droite : 
 
 | Emplacement sur la carte | Port | Caractéristiques |
