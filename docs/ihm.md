@@ -40,7 +40,7 @@ Applications disponibles dans OpenPlotter
 Dans settings, installez *Signal K installer* :  
 Une fois cet *installer* installé, vous pouvez vous connecter au serveur de Signal K en vous connectant ainsi :   
 Ouvrir Chromium (ou Firefox) et tapez [https://localhost:3000](https://localhost:3000) dans la barre d’adresse.  
-Vous pouvez aussi utiliser [ceci](https://github.com/SedNavOrg/SedNavOrg.github.io/blob/main/ihm/ouverture_site.sh).
+Vous pouvez aussi utiliser [ceci](https://github.com/SedNavOrg/SedNavOrg.github.io/blob/main/ihm/ouverture_site.sh), qui le fait pour vous.
 
 Une fois connecté, vous avez une demande pour créer un compte administrateur, Notez les bien quelque part \!
 
