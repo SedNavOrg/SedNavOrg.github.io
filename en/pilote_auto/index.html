@@ -1314,11 +1314,15 @@ Voici le montage final :   </p>
 <p><span class="caption-prefix">Figure 17.</span> sens des inverter</p>
 </figcaption>
 </figure>
+<figure id="__figure-caption_18">
 <ul>
 <li>Pour les différents câbles, vous devez brancher les mêmes câbles que ceux des cartes précédentes. Par exemple, le câble GND du compas doit être branché sur l’emplacement GND réservé au compas sur la carte. Voici une figure illustrant les différentes parties réservées pour les cartes : <br />
-   ![][image17]<br />
-<em>Figure 57 : emplacement réservées de la carte</em>  </li>
+<img alt="emplacement réservées de la carte" src="../../assets/pilote_auto/image22.png" />  </li>
 </ul>
+<figcaption>
+<p><span class="caption-prefix">Figure 18.</span> emplacement réservées de la carte</p>
+</figcaption>
+</figure>
 <p>De gauche à droite : </p>
 <table>
 <thead>
@@ -1545,22 +1549,22 @@ Attendez ensuite une minute le temps que le Raspberry se lance correctement. Mai
 Cela devrait vous amener sur cette page du pilote automatique (remarque la langue et la couleur du fond peuvent être modifiée et donc différentes sur votre pilote automatique) : <br />
 ![][image18]<br />
 <em>Figure 58 : page d’accueil pilote automatique</em></p>
-<figure id="__figure-caption_18">
+<figure id="__figure-caption_19">
 <p>Cette page web est essentielle car elle permet d'accéder à tous les paramètres du pilote automatique depuis un écran plus grand que l’écran LCD. <br />
 En effet, si vous utilisez le pilote automatique de manière autonome, vous pouvez accéder à toutes les données et les paramètres sur cette page web (ce sont les mêmes menus que ceux afficher sur l’écran LCD).<br />
 Ainsi pour les calibrations futures, vous pourrez passer par l’écran ou par ce site directement selon vos préférences. <br />
 Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure Wifi”, vous devez obtenir la page suivante :<br />
 <img alt="page de configuration Wifi" src="../../assets/pilote_auto/image18.png" />  </p>
 <figcaption>
-<p><span class="caption-prefix">Figure 18.</span> page de configuration Wifi</p>
+<p><span class="caption-prefix">Figure 19.</span> page de configuration Wifi</p>
 </figcaption>
 </figure>
 <p>On observe ici le point d’accès qui a été créé ainsi que notre PC qui est connecté au réseau (c’est l’adresse IP 192.168.14.109) </p>
-<figure id="__figure-caption_19">
+<figure id="__figure-caption_20">
 <p>Il faut ensuite changer l’onglet de Master (AP) à Manage (client) cela signifie que le raspberry passe de manager du réseau à client et nous allons le configurer pour être Client du réseau créé par l’IHM comme sur la figure suivante : <br />
 <img alt="configuration client" src="../../assets/pilote_auto/image19.png" />  </p>
 <figcaption>
-<p><span class="caption-prefix">Figure 19.</span> configuration client</p>
+<p><span class="caption-prefix">Figure 20.</span> configuration client</p>
 </figcaption>
 </figure>
 <p>Complétez les champs suivants : </p>
@@ -1571,17 +1575,17 @@ Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure
 </ul>
 <p>Puis cliquez sur Submit, débranchez la carte du PC avant de la rebrancher sur la carte principale pour “reboot” la carte et valider l’opération.<br />
 Dans OpenCPN (sur l’IHM) lancez le plugin pypilot et cliquez sur AP comme sur la figure suivante : </p>
-<figure id="__figure-caption_20">
+<figure id="__figure-caption_21">
 <p><img alt="connexion pypilot" src="../../assets/pilote_auto/image20.png" />  </p>
 <figcaption>
-<p><span class="caption-prefix">Figure 20.</span> connexion pypilot</p>
+<p><span class="caption-prefix">Figure 21.</span> connexion pypilot</p>
 </figcaption>
 </figure>
 <p>Ensuite, entrez dans l’onglet Settings et noter l’adresse IP (celle configurée quelques lignes plus tôt) dans la barre comme sur la figure suivante : </p>
-<figure id="__figure-caption_21">
+<figure id="__figure-caption_22">
 <p><img alt="connexion réussie" src="../../assets/pilote_auto/image21.png" />  </p>
 <figcaption>
-<p><span class="caption-prefix">Figure 21.</span> connexion réussie</p>
+<p><span class="caption-prefix">Figure 22.</span> connexion réussie</p>
 </figcaption>
 </figure>
 <p>Vous devriez avoir le bandeau vert après quelques secondes signifiant une réussite de l’opération. Si ce n’est pas le cas, il se peut que vous ayez fait une des erreurs suivantes : </p>
@@ -1633,7 +1637,7 @@ Vérifier s’il faut ouvrir un workspace ou bien si le fichier .ino suffit</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="23 janvier 2026 16:17:42 UTC"><span class="timeago" datetime="2026-01-23T16:17:42+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="23 janvier 2026 16:17:42 UTC">2026-01-23</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="23 janvier 2026 16:56:39 UTC"><span class="timeago" datetime="2026-01-23T16:56:39+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="23 janvier 2026 16:56:39 UTC">2026-01-23</span>
   </span>
 
     
