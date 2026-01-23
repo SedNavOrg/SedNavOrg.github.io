@@ -337,14 +337,18 @@ Cette page web est essentielle car elle permet d'accéder à tous les paramètre
 En effet, si vous utilisez le pilote automatique de manière autonome, vous pouvez accéder à toutes les données et les paramètres sur cette page web (ce sont les mêmes menus que ceux afficher sur l’écran LCD).  
 Ainsi pour les calibrations futures, vous pourrez passer par l’écran ou par ce site directement selon vos préférences.   
 Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure Wifi”, vous devez obtenir la page suivante :  
-![][image19]  
-*Figure 59 : page de configuration Wifi*
+![page de configuration Wifi](assets/pilote_auto/image18.png)  
+///figure-caption
+page de configuration Wifi
+///
 
 On observe ici le point d’accès qui a été créé ainsi que notre PC qui est connecté au réseau (c’est l’adresse IP 192.168.14.109) 
 
 Il faut ensuite changer l’onglet de Master (AP) à Manage (client) cela signifie que le raspberry passe de manager du réseau à client et nous allons le configurer pour être Client du réseau créé par l’IHM comme sur la figure suivante :   
-![][image20]  
-*Figure 60 : configuration client*
+![configuration client](assets/pilote_auto/image19.png)  
+///figure-caption
+configuration client
+///
 
 Complétez les champs suivants : 
 
@@ -355,13 +359,17 @@ Complétez les champs suivants :
 Puis cliquez sur Submit, débranchez la carte du PC avant de la rebrancher sur la carte principale pour “reboot” la carte et valider l’opération.  
 Dans OpenCPN (sur l’IHM) lancez le plugin pypilot et cliquez sur AP comme sur la figure suivante : 
 
-![][image21]  
-*Figure 61 : connexion pypilot*
+![connexion pypilot](assets/pilote_auto/image20.png)  
+///figure-caption
+connexion pypilot
+///
 
 Ensuite, entrez dans l’onglet Settings et noter l’adresse IP (celle configurée quelques lignes plus tôt) dans la barre comme sur la figure suivante : 
 
-![][image22]  
-*Figure 62 : connexion réussie*
+![connexion réussie](assets/pilote_auto/image21.png)  
+///figure-caption
+connexion réussie
+///
 
 Vous devriez avoir le bandeau vert après quelques secondes signifiant une réussite de l’opération. Si ce n’est pas le cas, il se peut que vous ayez fait une des erreurs suivantes : 
 
