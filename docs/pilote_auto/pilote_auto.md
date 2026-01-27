@@ -22,13 +22,13 @@ Le pilote automatique est composé de 3 cartes :
 
 Voici ci-dessous une photo de l’ensemble de ces trois cartes qui forment le pilote automatique.
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_41.png)
 
 *Figure 41 :  les trois cartes montées*
 
 Voici un zoom sur les trois cartes séparément ainsi que leurs composants : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_42.png)
 
 *Figure 42 :  Photo du montage du compas*
 
@@ -39,7 +39,7 @@ Détail des composants :
 * Câbles d’alimentation : alimenter les composants présents sur la carte  
 * Accéléromètre : mesurer les flux magnétiques que l’on converti par la suite en cap 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_43.png)
 
 *Figure 43 : Photo du montage de la carte de contrôle*
 
@@ -50,7 +50,7 @@ Détail des composants :
 * Câbles pour transmettre les informations : transmettre l’appui sur une touche à la carte principale pour que l’Arduino puisse contrôler le pilote automatique  
 * Touches de commande : commander le pilote avec des touches intuitives et pratiques d’utilisation (les touches sont tactiles)
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_44.png)
 
 *Figure 44 : Photo du montage de la carte principale*
 
@@ -90,19 +90,19 @@ Recommandations pour les soudures :
 
   * Des connecteurs à pics : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_45.png)
 
 *Figure 45 : connecteurs à pics*
 
 * Des connecteurs à trous : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_46.png)
 
 *Figure 46 : connecteurs à trous*
 
 * Connecteurs de bornier : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_47.png)
 
 *Figure 47 : connecteurs de bornier*
 
@@ -113,7 +113,7 @@ Cela permet de ne pas souder directement les composants sur la carte et donc de 
 Pour rappel, le compas est l’outil qui permet de connaître le cap du bateau et de communiquer cette information avec la carte principale pour que le pilote automatique corrige le cap.  
 Voici l’objectif final du montage : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_48.png)
 
 *Figure 48 : compas*
 
@@ -131,13 +131,13 @@ Remarques :
 
 * Pour trouver les bonnes valeurs de résistance et le système utilisé voici une image explicative :
  
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_49.png)
 
   *Figure 49 : source : [positron libre](https://www.positron-libre.com/cours/electronique/resistances/code-couleurs-resistances.php)*  
 * Les résistances n’ont pas de sens, vous pouvez mettre la patte gauche à droite ou bien à gauche, cela ne changera en rien le fonctionnement de la résistance.  
 * Le I2C extender par contre a un sens et il faut être vigilant. Il faut vérifier la documentation en fonctions des composants mais voici notre montage comme indication : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_50.png)
 
 *Figure 50 : sens du I2C*
 
@@ -152,11 +152,11 @@ Pour rappel, la carte de contrôle permet de contrôler le pilote automatique sa
 
 Voici l’objectif final du montage : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_51.png)
 
 *Figure 51 : face recto de la carte de contrôle*
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_52.png)
 
 *Figure 52 : face verso de la carte de contrôle*
 
@@ -174,7 +174,7 @@ Mêmes remarques que précédemment concernant les couleurs des fils et leur emp
 
 De plus, comme les touches sont tactiles, nous vous conseillons de mettre des supports pour supporter les touches et éviter qu’elles ne s'abîment au fur et à mesure qu’on les manipule. 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_53.png)
 
 *Figure 53 : supports*
 
@@ -185,13 +185,13 @@ Vous pouvez imprimer en 3D des cylindres (⌀ : 6 mm, hauteur : 9 mm), avant de 
 La carte principale est celle qui centralise les informations et qui permet de contrôler la barre. De plus, le raspberry assure la communication avec l’IHM et permet donc l’échange d’informations entre celui-ci et le pilote automatique.  
 Voici le montage final : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_54.png)
 
 *Figure 54 : carte principale*
 
 Et voici une image pour voir les soudures en détails : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_55.png)
 
 *Figure 55 : soudures carte principale*
 
@@ -223,13 +223,13 @@ Remarques :
 * Même remarque pour le I2C extender que pour le compas concernant le sens de pose  
 * Les Inverter ont un sens et il faut être vigilant. Il faut vérifier la documentation en fonctions des composants mais voici notre montage comme indication :
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_56.png)
 
 *Figure 56 : sens des inverter*
 
 * Pour les différents câbles, vous devez brancher les mêmes câbles que ceux des cartes précédentes. Par exemple, le câble GND du compas doit être branché sur l’emplacement GND réservé au compas sur la carte. Voici une figure illustrant les différentes parties réservées pour les cartes :
  
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_57.png)
 
   *Figure 57 : emplacement réservées de la carte*  
   
@@ -314,7 +314,7 @@ Attendez ensuite une minute le temps que le Raspberry se lance correctement. Mai
 Ensuite dans votre navigateur, entrez l’adresse IP suivante dans la barre d’adresse : 192.168.14.1  
 Cela devrait vous amener sur cette page du pilote automatique (remarque la langue et la couleur du fond peuvent être modifiée et donc différentes sur votre pilote automatique) : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_58.png)
 
 *Figure 58 : page d’accueil pilote automatique*
 
@@ -323,7 +323,7 @@ En effet, si vous utilisez le pilote automatique de manière autonome, vous pouv
 Ainsi pour les calibrations futures, vous pourrez passer par l’écran ou par ce site directement selon vos préférences.   
 Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure Wifi”, vous devez obtenir la page suivante :
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_59.png)
 
 *Figure 59 : page de configuration Wifi*
 
@@ -331,7 +331,7 @@ On observe ici le point d’accès qui a été créé ainsi que notre PC qui est
 
 Il faut ensuite changer l’onglet de Master (AP) à Manage (client) cela signifie que le raspberry passe de manager du réseau à client et nous allons le configurer pour être Client du réseau créé par l’IHM comme sur la figure suivante : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_60.png)
 
 *Figure 60 : configuration client*
 
@@ -344,13 +344,13 @@ Complétez les champs suivants :
 Puis cliquez sur Submit, débranchez la carte du PC avant de la rebrancher sur la carte principale pour “reboot” la carte et valider l’opération.  
 Dans OpenCPN (sur l’IHM) lancez le plugin pypilot et cliquez sur AP comme sur la figure suivante : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_61.png)
 
 *Figure 61 : connexion pypilot*
 
 Ensuite, entrez dans l’onglet Settings et noter l’adresse IP (celle configurée quelques lignes plus tôt) dans la barre comme sur la figure suivante : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_62.png)
 
 *Figure 62 : connexion réussie*
 
@@ -395,7 +395,7 @@ Pour actionner le vérin, cliquez sur Auto et demander un cap différent du cap 
 
 Vous avez obtenu un pilote automatique qui fonctionne de manière autonome et que vous pouvez piloter avec l’écran en utilisant les touches : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_63.png)
 
 *Figure 63 : touches de l’écran*
 
@@ -420,7 +420,7 @@ Une fois que vous avez votre pilote automatique et le vérin relié à la barre 
 En arrivant dans cette sous-partie vous avez un pilote automatique fonctionnel et connecté à l’IHM, pour son bon fonctionnement, il ne reste plus qu’à calibrer le compas et à régler le vérin mais ces 2 étapes nécessitent d’être sur votre bateau prêt à naviguer. Nous vous conseillons de vous rendre dans un endroit calme et de mettre en marche votre moteur et pas les voiles pour la suite car vous aurez besoin de faire des ronds dans l’eau pour calibrer le compas.  
 plugin pypilot \-\> calibration \-\> Level \-\> Mettre le compas dans différentes positions pour le calibrer (vous pouvez le tourner à la main ou faire des ronds dans l’eau) \-\> des points de couleurs apparaissent à l'écran comme sur la figure suivante : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_64.png)
 
 *Figure 64 : calibration du compas*
 
@@ -444,8 +444,8 @@ Nous allons vous détailler les 3 options et vous pourrez choisir celle qui vous
 Menu \-\> Gain \-\> choisissez le gain à modifier \-\> Menu \-\> Utilisez les touches \-10 et \+10 pour changer la valeur.  
 Les figures suivantes montrent les écrans à obtenir :   
 
-![image alt]()
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_65.png)
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_66.png)
 
             *Figure 65 : menu des gains                                       Figure 66 : menu de réglage du gain I*
 
@@ -454,7 +454,7 @@ Les figures suivantes montrent les écrans à obtenir :
 Connecter le pilote en master et connecter vous au réseau wifi pypilot (cf 6.2.2.1)  
 Vous devriez avoir la figure suivante après avoir cliqué sur l’onglet Gain : 
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_67.png)
 
 *Figure 67 : Onglet de réglage des gains pypilot*
 
@@ -464,7 +464,7 @@ Vous pouvez facilement modifier les gains avec les curseurs et les régler plus 
 
 Plugin pypilot \-\> gains \-\> vous devez obtenir la figure suivante:
 
-![image alt]()
+![image alt](https://github.com/jmoulin971/SedNavOrg.github.io/blob/23a7a91add74b1bbe1cd55ff8cddd52db45e0447/docs/pilote_auto/photos/figure_68.png)
 
 *Figure 68 : réglage des gains via l’IHM*
 
