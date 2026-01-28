@@ -9,6 +9,8 @@ weight: 4
 
 L’Interface Homme-Machine (IHM) constitue le point central d’interaction entre l’utilisateur et le système de navigation. Elle permet de visualiser en temps réel la position du bateau, le cap, ainsi que les données issues de l’anémomètre et du pilote automatique.
 
+!image[](https://github.com/jmoulin971/SedNavOrg.github.io/blob/d5890d0032dc4d755c37ee509972cc4683c7bd97/docs/ihm/photos/figure_2.png)
+
 *Figure 2: rôle de l’IHM dans le système*
 
 D’un point de vue logiciel, l’IHM repose sur Signal K, qui assure la centralisation et la distribution des données entre les différents sous-systèmes. OpenCPN agit comme interface graphique principale pour la navigation et le pilotage.
@@ -28,6 +30,8 @@ Insérer la carte SD dans le Raspberry Pi, connecter les périphériques (écran
 Allez dans le panneau en haut à droite.  
 A moins d’être précisé autrement, l’installation des applications sera faite via l’application Settings (accessible depuis le bouton en haut à gauche). Dans Settings, cliquer sur Add sources puis sur add candidates. Si à un moment ultérieur vous avez besoin de mettre à jour une application, re-cliquez sur add candidates pour avoir les mises à jour.
 
+!image[](https://github.com/jmoulin971/SedNavOrg.github.io/blob/d5890d0032dc4d755c37ee509972cc4683c7bd97/docs/ihm/photos/figure_3.png)
+
 *Figure 3 : Applications disponibles dans OpenPlotter*
 
 3. ### Installation de Signal 
@@ -44,10 +48,14 @@ Une fois connecté, vous avez une demande pour créer un compte administrateur, 
 Comme précédemment, installez OpenCPN via settings:  
 Sur l’installer, cliquez sur *check versions*, puis dans *install*, sélectionnez la version *Backport* (c’est celle la plus à jour)
 
+!image[](https://github.com/jmoulin971/SedNavOrg.github.io/blob/d5890d0032dc4d755c37ee509972cc4683c7bd97/docs/ihm/photos/figure_4.png)
+
 *Figure 4 : Installer d’OpenCPN*
 
 Une fois OpenCPN installé, il faut connecter OpenCPN au serveur Signal K : allez dans *Options* puis dans *Connection* et dans la section *“configure a new connection”*, sélectionnez network.  
 Comme protocole, choisissez Signal k, comme adresse *Localhost* et comme port *3000*. Laissez l’option automatic server discovery décochée (voir figure ci-dessous).
+
+!image[](https://github.com/jmoulin971/SedNavOrg.github.io/blob/d5890d0032dc4d755c37ee509972cc4683c7bd97/docs/ihm/photos/figure_6.png)
 
 *Figure 5 : connexion entre OpenCPN et Signal K*
 
