@@ -14,13 +14,13 @@ Cet anémomètre est une amélioration du projet suivant :
 
 Pour obtenir la direction du vent, l’anémomètre utilise un aimant et un capteur magnétique qui lui permet d’avoir la direction du champ magnétique de l’aimant.
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/ed6eadcef0a17552b258f4ebd5026e3ef91b5093/docs/an%C3%A9mom%C3%A8tre/photos/figure_6.gif)
 
 *Figure 6 :  anémomètre fonctionnel* 
 
 Pour obtenir la vitesse du vent, l’anémomètre utilise 4 aimants où on alterne successivement la direction du champ magnétique. Le capteur utilisé est un capteur à effet hole qui permet de mesurer ces changements de sens du champ magnétique. La fréquence obtenue permet alors de mesurer la vitesse de rotation des coupelles qui est proportionnelle à celle du vent.
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/ed6eadcef0a17552b258f4ebd5026e3ef91b5093/docs/an%C3%A9mom%C3%A8tre/photos/figure_7.gif)
 
 *Figure 7 : coupelles de l’anémomètre*
 
