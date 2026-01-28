@@ -281,13 +281,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../systeme_complet/" class="md-tabs__link">
+      <a href="../glossaire/" class="md-tabs__link">
         
   
   
     
   
-  Système complet
+  Glossaire
 
       </a>
     </li>
@@ -300,13 +300,32 @@
   
   
     <li class="md-tabs__item">
-      <a href="../bom/" class="md-tabs__link">
+      <a href="../liste_materiel/" class="md-tabs__link">
         
   
   
     
   
-  Matériel nécessaire
+  Liste materiel
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../systeme_complet/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Système complet
 
       </a>
     </li>
@@ -478,14 +497,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../systeme_complet/" class="md-nav__link">
+      <a href="../glossaire/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Système complet
+    Glossaire
   
 
     
@@ -505,14 +524,41 @@
   
   
     <li class="md-nav__item">
-      <a href="../bom/" class="md-nav__link">
+      <a href="../liste_materiel/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Matériel nécessaire
+    Liste materiel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../systeme_complet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Système complet
   
 
     
@@ -577,10 +623,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -598,8 +644,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -792,7 +838,232 @@
 
 
 <h1 id="anemometre">Anémomètre<a class="headerlink" href="#anemometre" title="Permanent link">&para;</a></h1>
-<p>TODO: écrire la partie anémomètre</p>
+<ol>
+<li>
+<h1 id="anemometre_1">Anémomètre<a class="headerlink" href="#anemometre_1" title="Permanent link">&para;</a></h1>
+</li>
+<li>
+<h2 id="presentation-du-systeme">Présentation du système<a class="headerlink" href="#presentation-du-systeme" title="Permanent link">&para;</a></h2>
+</li>
+</ol>
+<p>L’anémomètre est un capteur qui permet de mesurer la vitesse et la direction du vent. Ce capteur permet au pilote automatique de s’adapter en fonction des conditions quand il est connecté à l’IHM.</p>
+<p>Cet anémomètre est une amélioration du projet suivant :<br />
+<a href="https://open-boat-projects.org/en/windsensor-yachta/">https://open-boat-projects.org/en/windsensor-yachta/</a></p>
+<p>Pour obtenir la direction du vent, l’anémomètre utilise un aimant et un capteur magnétique qui lui permet d’avoir la direction du champ magnétique de l’aimant.</p>
+<p><img alt="image" src="../assets/anenometre/figure_6.gif" /></p>
+<p><em>Figure 6 :  anémomètre fonctionnel</em> </p>
+<p>Pour obtenir la vitesse du vent, l’anémomètre utilise 4 aimants où on alterne successivement la direction du champ magnétique. Le capteur utilisé est un capteur à effet hole qui permet de mesurer ces changements de sens du champ magnétique. La fréquence obtenue permet alors de mesurer la vitesse de rotation des coupelles qui est proportionnelle à celle du vent.</p>
+<p><img alt="image" src="../assets/anenometre/figure_7.gif" /></p>
+<p><em>Figure 7 : coupelles de l’anémomètre</em></p>
+<ol>
+<li>
+<h2 id="fabrication-de-la-carte-electronique">Fabrication de la carte électronique<a class="headerlink" href="#fabrication-de-la-carte-electronique" title="Permanent link">&para;</a></h2>
+</li>
+</ol>
+<p>Todo</p>
+<ol>
+<li>
+<h2 id="installation-du-firmware">Installation du firmware<a class="headerlink" href="#installation-du-firmware" title="Permanent link">&para;</a></h2>
+</li>
+<li>
+<h2 id="montage-mecanique">Montage mécanique<a class="headerlink" href="#montage-mecanique" title="Permanent link">&para;</a></h2>
+</li>
+</ol>
+<p>Pour monter l’entièreté du système, vous aurez besoin uniquement des outils suivants :</p>
+<ul>
+<li>Imprimante 3D  </li>
+<li>Jeu de clés Allen  </li>
+<li>Fer à souder  </li>
+<li>Ordinateur avec un câble USB-C</li>
+</ul>
+<p>Pour l’impression 3D :<br />
+Le design a été fait sur Onshape, un site web permettant de faire de la modélisation 3D gratuitement.<br />
+Le lien suivant vous permet d’accéder à la modélisation 3D de l’anémomètre et de copier l’espace de travail pour adapter les parties :<br />
+<a href="https://centralelille.onshape.com/documents/f9b90260c58491739822fbe3/w/62acd9df5da8c8ddfe89f5b6/e/0e559c2feb2e8f1b7c776362?renderMode=0&amp;uiState=693ebf92a69bb09714a9be19">https://centralelille.onshape.com/documents/f9b90260c58491739822fbe3/w/62acd9df5da8c8ddfe89f5b6/e/0e559c2feb2e8f1b7c776362?renderMode=0\&amp;uiState=693ebf92a69bb09714a9be19</a></p>
+<p>En bas de l’interface, vous trouverez tous dossiers qui ont permis de créer l’anémomètre :</p>
+<ul>
+<li>Global assembly : permet de voir l’assemblage global du système ainsi que les mouvements des pièces les unes par rapport aux autres  </li>
+<li>comparaison_windsensor : dossier dans lequel vous pourrez retrouver d’autres anémomètres  </li>
+<li>Settings : tableau des paramètres qui permettent de modifier rapidement certaines parties du modèle  </li>
+<li>parts adapted 3D printing : dossier dans lequel vous retrouverez toutes les parties de l’anémomètre avec un ajout de jeu testé sur une imprimante 3D.  </li>
+<li>clearance_test : dossier dans lequel vous trouverez des gabarits permettant de tester le jeu des pièces les unes par rapport aux autres  </li>
+<li>Standard parts : dossier avec toutes les pièces qui ne sont pas imprimées mais nécessaires pour l’anémomètre (ex : aimants, roulements à billes…)  </li>
+<li>Sub_parts : dossier dans lequel vous trouverez la modélisation de chaque pièce sans jeux  </li>
+<li>Documentation : dossier regroupant certaines datasheets des pièces utilisées  </li>
+<li>Import CAO : dossier contenant les fichiers .step des éléments importés dans cet espace de travail</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_8.png" /></p>
+<p><em>Figure 8  : dossiers avec les éléments importés</em></p>
+<p>Quelques conseils avant d’imprimer les pièces :</p>
+<ul>
+<li>Imprimez les pièces en <strong>ABS</strong> du fait de sa meilleure résistance à la chaleur.  </li>
+<li>Les jeux utilisés dans le dossier parts adapted 3D printing ont été fait pour une imprimante PRUSA MK3 avec une buse de 0.4mm. Les jeux ne correspondront très probablement pas avec votre imprimante. Je vous conseille d’imprimer les pièces dans clearance_test pour tester les jeux sur les différentes pièces du système.Dans le dossier, voici les différents tests :  </li>
+<li><img alt="image" src="../assets/anenometre/figure_8.1.png" /></li>
+<li>ball_bearing_test : test pour insérer les roulements à billes  </li>
+<li>fan_nose_test : test pour l’insertion du bout de la girouette (à tester sur la pièce nommée <strong>fan</strong>)  </li>
+<li>fan_cap_test : test pour le capuchon de protection de l’écrou dans la girouette (à tester sur la pièce nommée <strong>fan</strong>)  </li>
+<li>cup_holder_test : test pour l’insertion des coupelles (à tester sur la pièce nommée <strong>cup_holder</strong>)  </li>
+<li>nose_balance : à imprimer uniquement si la girouette est n’est pas équilibrée</li>
+</ul>
+<p>Pour mesurer des diamètres, distances… appuyez sur le mètre en bas à droite de l’écran :</p>
+<p><img alt="image" src="../assets/anenometre/figure_9.png" /></p>
+<p><em>Figure 9 :  outil de mesure des distances</em></p>
+<p>Cliquez sur le ou les faces/arêtes nécessaires pour la mesure :</p>
+<p><img alt="image" src="../assets/anenometre/figure_10.png" /></p>
+<p><em>Figure 10 outil de mesure des distances</em></p>
+<p>pour exporter les pièces pour les imprimer en 3D, affichez uniquement les pièces que vous voulez imprimer en cliquant sur l’oeil :</p>
+<p><img alt="image" src="../assets/anenometre/figure_11.png" /></p>
+<p><em>Figure 11 :  export des pièces à imprimer</em></p>
+<p>Faites ensuite <strong>clic droit -&gt; Export…</strong> sur le fichier (dans la barre en bas) ou si vous voulez uniquement exporter une pièce, faites le sur la part dans l’onglet parts (cf au dessus)<br />
+Vous aurez alors une page de paramètre qui va apparaître, faites attention à bien exporter en .<strong>slt</strong> et d’avoir l’unité millimètre :</p>
+<p><img alt="image" src="../assets/anenometre/figure_12.png" /></p>
+<p><em>Figure 12 : export des pièces à imprimer</em></p>
+<p>Quand vous connaissez les jeux adaptés à votre imprimante 3D, allez dans le dossier parts adapted 3D printing -&gt; final version et dans les différents part studio vous trouverez les fonctions “<strong>move face</strong>” : </p>
+<p><img alt="image" src="../assets/anenometre/figure_13.png" /></p>
+<p><em>Figure 13 :  fonctions move face</em></p>
+<p>Faites un <strong>double-clic</strong> pour modifier la fonction et ajustez le jeu en modifiant la valeur dans “<strong>distance</strong>”</p>
+<p><img alt="image" src="../assets/anenometre/figure_14.png" /></p>
+<p><em>Figure 14 :  ajustement du jeu</em></p>
+<p>Choix de la coupelle : J’ai modélisé 4 formes de coupelles différentes. Toutes les formes sont viables mais les coupelles plus courtes tourneront plus vite. Si vous voulez comparer leurs performances, allez regarder l’excel des tests en soufflerie.</p>
+<p>Impression des pièces :<br />
+Voici la liste des pièces que vous devez imprimer en 3D :</p>
+<ul>
+<li>x1 magnet_holder (V2)  </li>
+<li>x1 cup holder  </li>
+<li>x1 lower body  </li>
+<li>x1 upper body  </li>
+<li>x1 lower ring  </li>
+<li>x1 upper ring (attention les 2 pièces sont différentes, un symbole permet de les différencier, cf main_part_V2_printer)  </li>
+<li>x3 cup (choisissez l’une des 4 formes de coupelles)  </li>
+<li>x1 fan (V3)  </li>
+<li>x1 fan_nose (V3) (optionnel, nose balance si la girouette n’est pas bien équilibrée, à modifier manuellement)  </li>
+<li>x1 fan_cap</li>
+</ul>
+<p>Dans la modélisation, j’ai essayé de rendre les pièces imprimables avec le moins de support possible. Voici l’orientation de chaque pièces avec les endroits où j’ai mis du support :</p>
+<ul>
+<li>Les pièces imprimables sans support :   </li>
+<li>magnet_holder  </li>
+<li>cup holder  </li>
+<li>lower ring  </li>
+<li>upper ring  </li>
+<li>fan_cap  </li>
+<li>fan_nose (ATTENTION, imprimez cette pièce avec un remplissage de <strong>100%</strong>)</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_15.png" /></p>
+<p><em>Figure 15 :  impression des pièces</em></p>
+<ul>
+<li>Les pièces nécessitant du support :  </li>
+<li>cup holder : je conseille de mettre du support sur ces faces en mettant un support organique pour éviter au maximum que le support s'appuie sur le bas de la glissière</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_16.png" /></p>
+<p><em>Figure 16 : cup holder</em></p>
+<ul>
+<li>fan : les tests d’équilibrage on était fait en imprimant cette pièce avec un remplissage de 15%, 2 couches de parois verticales et 4 horizontales avec une précision d’impression de 0.2mm. D’autres paramètres changeront légèrement la répartition du poids de la girouette et donc son équilibrage. (Il est possible d’imprimer la pièce nose balance ou changer la taille de la pièce fan_nose pour rééquilibrer la girouette, expliqué dans la suite)</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_17.png" /></p>
+<p><em>Figure 17 :  fan vue de dessous</em></p>
+<p><img alt="image" src="../assets/anenometre/figure_18.png" /></p>
+<p><em>Figure 18 :  fan vue de côté</em></p>
+<p><img alt="image" src="../assets/anenometre/figure_19.png" /></p>
+<p><em>Figure 19 :  fan vue slicer imprimante 3D</em></p>
+<ul>
+<li>
+<p>lower body : </p>
+<p><img alt="image" src="../assets/anenometre/figure_20.png" />
+<img alt="image" src="../assets/anenometre/figure_21.png" />              <br />
+   * Figure 20 :  lower body vue de dessous                                  Figure 21 :  lower body vue de côté *          </p>
+</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_22.png" /></p>
+<p><em>Figure 22 :  lower body vue slicer imprimante 3D</em></p>
+<ul>
+<li>upper body :</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_23.png" />
+  <img alt="image" src="../assets/anenometre/figure_24.png" /></p>
+<p><em>Figure 23 :  upper body vue de dessous                                         Figure 24 : upper body vue de côté</em></p>
+<p><img alt="image" src="../assets/anenometre/figure_25.png" /></p>
+<p><em>Figure 25 :  upper body vue slicer imprimante 3D</em></p>
+<p>Montage :</p>
+<ul>
+<li>Insérez les roulements à billes dans les parties hautes et basses en n’oubliant pas de mettre les entretoises entre à chaque fois :  </li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_26.png" />
+<img alt="image" src="../assets/anenometre/figure_27.png" /></p>
+<p><em>Figure 26 :  roulements à billes vue de dessus             Figure 27 :  roulements à billes vue de dessous</em></p>
+<ul>
+<li>Assemblez le magnet holder : ATTENTION, il faut alterner sens des magnets.  Pour se faire, insérez un magnet dans l’un des trous, ensuite prenez un autre magnet et rapprochez le de celui insérez, s’ils s’attirent, cela veut dire que les faces sud de l’un et nord de l’autre se font face. Dans ce cas, placez le magnet dans l’un des trous adjacent au magnet placé en faisant attention à bien mettre la face attirée vers l’extérieure pour alterner les face nord et sud à chaque fois (cf images en dessous)</li>
+<li>
+<p><img alt="image" src="../assets/anenometre/figure_28.png" />
+  <img alt="image" src="../assets/anenometre/figure_29.png" />                                        <br />
+<em>Figure 28 :  assemblage des aimants                                       Figure 29 : schéma des aimants</em></p>
+</li>
+<li>
+<p>Assemblez le magnet holder avec la partie basse :</p>
+</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_30.png" />
+  <img alt="image" src="../assets/anenometre/figure_31.png" /></p>
+<p><em>Figure 30 :  assemblage des 2 parties                           Figure 31 :  assemblage des 2 parties</em>  </p>
+<ul>
+<li>
+<p>Insérez les coupelles sur la partie rotative : je vous conseille de mettre un point de superglue, car les coupelles ont tendance à glisser avec l’usure.  </p>
+<p><img alt="image" src="../assets/anenometre/figure_32.png" /></p>
+</li>
+</ul>
+<p><em>Figure 32 :  assemblage des coupelles</em></p>
+<ul>
+<li>Attention à ne pas trop serrer la partie rotative, même si les roulements sont maintenus avec les entretoises, cela à tendance à rendre le frottement très important. Si vous arrivez à faire comme sur le gif juste en dessous avec votre anémomètre, alors vous avez correctement serré cette partie. Si vous avez peur que l’écrou se dévisse au cours du temps, n’hésitez pas à mettre un peu de frein filé après montage :</li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_33.png" /></p>
+<p><em>Figure 33 :  montage des coupelles</em></p>
+<ul>
+<li>Collez l’aimant cubique sur la vis : ATTENTION, vérifiez bien que les faces nord et sud de l’aimant se situent sont sont positionnés comme sur l’image ci-dessous (vous pouvez utiliser une pièce de 5 centimes pour savoir quelles faces du cube sont aimantées)  </li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_34.png" />
+<img alt="image" src="../assets/external/github.com/jmoulin971/SedNavOrg.github.io/blob/6de89e860c7eb0ca65f2549fc3aa8e52c32b7258/docs/anémomètre/photos/figure_35.png"></p>
+<p><em>Figure 34 :  aimant et vis réalité                                        Figure 35 :  face de l’aimant</em> </p>
+<ul>
+<li>Insérez l’écrou dans la girouette :</li>
+<li><img alt="image" src="../assets/anenometre/figure_36.png" /></li>
+</ul>
+<p><em>Figure 36 :  girouette</em>  </p>
+<ul>
+<li>
+<p>Mettez le nez de la girouette et le capuchon de l’écrou :  </p>
+<p><img alt="image" src="../assets/anenometre/figure_37.png" /></p>
+</li>
+</ul>
+<p><em>Figure 37 :  girouette montée</em></p>
+<ul>
+<li>Montez la girouette sur la partie haute et vérifiez que la girouette est correctement équilibrée en la mettant horizontalement et vérifiant qu’elle ne tourne pas et faites le même test que pour les coupelles pour vérifier le serrage :  </li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_38.png" />
+  <img alt="image" src="../assets/anenometre/figure_39.png" /></p>
+<div class="language-text highlight"><pre><span></span><code>     *Figure 38 :  montage de la girouette vue de côté                 Figure 39 :  montage vue de dessus*
+</code></pre></div>
+<ul>
+<li>Insérez la carte électronique comme sur les photos et mettez la tige de carbone (coupez-la à la longueur que vous voulez, 25cm est une bonne taille). Vous pouvez fixer la carte électronique avec 2 vis M3 de 6mm.  </li>
+</ul>
+<p><img alt="image" src="../assets/anenometre/figure_40.png" />
+  <img alt="image" src="../assets/anenometre/figure_41.png" />                         <br />
+<em>Figure 40 : insertion de la carte électronique                   Figure 41 : montage vue de dessus</em></p>
+<ul>
+<li>
+<p>Finissez de monter l’anémomètre en vissant la partie basse et haute :  </p>
+<p><img alt="image" src="../assets/anenometre/figure_42.png" /></p>
+</li>
+</ul>
+<p><em>Figure 42 : montage final</em></p>
+<ol>
+<li>
+<h2 id="configuration-logicielle">Configuration logicielle<a class="headerlink" href="#configuration-logicielle" title="Permanent link">&para;</a></h2>
+</li>
+</ol>
+<p>Une fois alimenté, un réseau wifi intitulé “Yachta” devrait apparaitre, le mot de passe est “12345678”. En s’y connectant, et en allant sur la page web <a href="http://192.168.5.1/">http://192.168.5.1/</a>, vous pouvez accéder à l’interface web.<br />
+Pour voir les valeurs des capteurs, cliquer sur l’onglet “Wind Instrument” ou “Wind Values”.<br />
+Pour configurer l’anémomètre (coefficients de calibration, connecter au réseau wifi du bateau, et plus encore), cliquer sur “Device settings”. Une fois les modifications des paramètres effectués, sauvegarder en cliquant sur “Save”, puis redémarrer l’anémomètre en  le débranchant ou en cliquant sur “Restart Device” sur le menu principal.</p>
+<p>Si vous souhaitez connecter l’anémomètre à une interface Homme Machine, vous pouvez le connecter à son réseau wifi en configurant “WLAN Client SSID” et “WLAN Client Password”.</p>
 
 
 
@@ -815,7 +1086,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="20 janvier 2026 17:01:15 UTC"><span class="timeago" datetime="2026-01-20T17:01:15+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="20 janvier 2026 17:01:15 UTC">2026-01-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28 janvier 2026 14:35:47 UTC"><span class="timeago" datetime="2026-01-28T14:35:47+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28 janvier 2026 14:35:47 UTC">2026-01-28</span>
   </span>
 
     
@@ -842,6 +1113,11 @@
 
     
     <nav>
+      
+        <a href="https://github.com/Arenion" class="md-author" title="@Arenion">
+          
+          <img src="../assets/external/avatars.githubusercontent.com/u/185614576.fe356448.png" alt="Arenion">
+        </a>
       
         <a href="https://github.com/vale075" class="md-author" title="@vale075">
           
