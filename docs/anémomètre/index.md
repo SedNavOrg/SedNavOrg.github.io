@@ -231,7 +231,7 @@ Montage :
 * Collez l’aimant cubique sur la vis : ATTENTION, vérifiez bien que les faces nord et sud de l’aimant se situent sont sont positionnés comme sur l’image ci-dessous (vous pouvez utiliser une pièce de 5 centimes pour savoir quelles faces du cube sont aimantées)  
                        
 ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_34.png)
-![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_35.png)
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/6de89e860c7eb0ca65f2549fc3aa8e52c32b7258/docs/an%C3%A9mom%C3%A8tre/photos/figure_35.png)
 
   *Figure 34 :  aimant et vis réalité                                        Figure 35 :  face de l’aimant* 
 
