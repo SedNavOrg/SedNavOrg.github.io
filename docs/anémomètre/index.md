@@ -56,7 +56,7 @@ En bas de l’interface, vous trouverez tous dossiers qui ont permis de créer l
 * Documentation : dossier regroupant certaines datasheets des pièces utilisées  
 * Import CAO : dossier contenant les fichiers .step des éléments importés dans cet espace de travail
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_8.png)
 
 *Figure 8  : dossiers avec les éléments importés*
 
@@ -64,7 +64,7 @@ Quelques conseils avant d’imprimer les pièces :
 
 * Imprimez les pièces en **ABS** du fait de sa meilleure résistance à la chaleur.  
 * Les jeux utilisés dans le dossier parts adapted 3D printing ont été fait pour une imprimante PRUSA MK3 avec une buse de 0.4mm. Les jeux ne correspondront très probablement pas avec votre imprimante. Je vous conseille d’imprimer les pièces dans clearance\_test pour tester les jeux sur les différentes pièces du système.Dans le dossier, voici les différents tests :  
-  *   ![image]()
+  *   ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_8.1.png)
   * ball\_bearing\_test : test pour insérer les roulements à billes  
   * fan\_nose\_test : test pour l’insertion du bout de la girouette (à tester sur la pièce nommée **fan**)  
   * fan\_cap\_test : test pour le capuchon de protection de l’écrou dans la girouette (à tester sur la pièce nommée **fan**)  
@@ -73,38 +73,38 @@ Quelques conseils avant d’imprimer les pièces :
 
 Pour mesurer des diamètres, distances… appuyez sur le mètre en bas à droite de l’écran :
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_9.png)
 
 *Figure 9 :  outil de mesure des distances*
 
 Cliquez sur le ou les faces/arêtes nécessaires pour la mesure :
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_10.png)
 
 *Figure 10 outil de mesure des distances*
 
 pour exporter les pièces pour les imprimer en 3D, affichez uniquement les pièces que vous voulez imprimer en cliquant sur l’oeil :
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_11.png)
 
 *Figure 11 :  export des pièces à imprimer*
 
 Faites ensuite **clic droit \-\> Export…** sur le fichier (dans la barre en bas) ou si vous voulez uniquement exporter une pièce, faites le sur la part dans l’onglet parts (cf au dessus)  
 Vous aurez alors une page de paramètre qui va apparaître, faites attention à bien exporter en .**slt** et d’avoir l’unité millimètre :
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_12.png)
 
 *Figure 12 : export des pièces à imprimer*
 
 Quand vous connaissez les jeux adaptés à votre imprimante 3D, allez dans le dossier parts adapted 3D printing \-\> final version et dans les différents part studio vous trouverez les fonctions “**move face**” : 
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_13.png)
 
 *Figure 13 :  fonctions move face*
 
 Faites un **double-clic** pour modifier la fonction et ajustez le jeu en modifiant la valeur dans “**distance**”
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_14.png)
 
 *Figure 14 :  ajustement du jeu*
 
@@ -134,7 +134,7 @@ Dans la modélisation, j’ai essayé de rendre les pièces imprimables avec le 
   * fan\_cap  
   * fan\_nose (ATTENTION, imprimez cette pièce avec un remplissage de **100%**)
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_15.png)
 
   *Figure 15 :  impression des pièces*
 
@@ -144,7 +144,7 @@ Dans la modélisation, j’ai essayé de rendre les pièces imprimables avec le 
 * Les pièces nécessitant du support :  
   * cup holder : je conseille de mettre du support sur ces faces en mettant un support organique pour éviter au maximum que le support s'appuie sur le bas de la glissière
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_16.png)
 
   *Figure 16 : cup holder*
 
@@ -152,17 +152,17 @@ Dans la modélisation, j’ai essayé de rendre les pièces imprimables avec le 
 
   * fan : les tests d’équilibrage on était fait en imprimant cette pièce avec un remplissage de 15%, 2 couches de parois verticales et 4 horizontales avec une précision d’impression de 0.2mm. D’autres paramètres changeront légèrement la répartition du poids de la girouette et donc son équilibrage. (Il est possible d’imprimer la pièce nose balance ou changer la taille de la pièce fan\_nose pour rééquilibrer la girouette, expliqué dans la suite)
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_17.png)
 
   *Figure 17 :  fan vue de dessous*
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_18.png)
 
   *Figure 18 :  fan vue de côté*
 
 
   
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_19.png)
 
   *Figure 19 :  fan vue slicer imprimante 3D*
 
@@ -171,22 +171,22 @@ Dans la modélisation, j’ai essayé de rendre les pièces imprimables avec le 
 
   * lower body : 
 
-          ![image]()
-          ![image]()                
+    ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_20.png)
+    ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_21.png)                
    * Figure 20 :  lower body vue de dessous                                  Figure 21 :  lower body vue de côté *          
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_22.png)
 
 *Figure 22 :  lower body vue slicer imprimante 3D*
 
 * upper body :
 
-        ![image]()
-        ![image]()
+   ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_23.png)
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_24.png)
                                      
 *Figure 23 :  upper body vue de dessous                                         Figure 24 : upper body vue de côté*
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_25.png)
 
 *Figure 25 :  upper body vue slicer imprimante 3D*
 
@@ -194,57 +194,57 @@ Montage :
 
 * Insérez les roulements à billes dans les parties hautes et basses en n’oubliant pas de mettre les entretoises entre à chaque fois :  
                                     
-![image]()
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_26.png)
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_27.png)
 
 *Figure 26 :  roulements à billes vue de dessus             Figure 27 :  roulements à billes vue de dessous*
 
 * Assemblez le magnet holder : ATTENTION, il faut alterner sens des magnets.  Pour se faire, insérez un magnet dans l’un des trous, ensuite prenez un autre magnet et rapprochez le de celui insérez, s’ils s’attirent, cela veut dire que les faces sud de l’un et nord de l’autre se font face. Dans ce cas, placez le magnet dans l’un des trous adjacent au magnet placé en faisant attention à bien mettre la face attirée vers l’extérieure pour alterner les face nord et sud à chaque fois (cf images en dessous)
 *   
-  ![image]()
-  ![image]()                                          
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_28.png)
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_29.png)                                          
   *Figure 28 :  assemblage des aimants                                       Figure 29 : schéma des aimants*
 
 
     
 * Assemblez le magnet holder avec la partie basse :
   
-  ![image]()
-  ![image]()
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_30.png)
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_31.png)
                                              
   *Figure 30 :  assemblage des 2 parties                           Figure 31 :  assemblage des 2 parties*  
     
     
 * Insérez les coupelles sur la partie rotative : je vous conseille de mettre un point de superglue, car les coupelles ont tendance à glisser avec l’usure.  
 
-    ![image]()
+    ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_32.png)
   
   *Figure 32 :  assemblage des coupelles*
 
     
 * Attention à ne pas trop serrer la partie rotative, même si les roulements sont maintenus avec les entretoises, cela à tendance à rendre le frottement très important. Si vous arrivez à faire comme sur le gif juste en dessous avec votre anémomètre, alors vous avez correctement serré cette partie. Si vous avez peur que l’écrou se dévisse au cours du temps, n’hésitez pas à mettre un peu de frein filé après montage :
 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_33.png)
 
 *Figure 33 :  montage des coupelles*
 
 * Collez l’aimant cubique sur la vis : ATTENTION, vérifiez bien que les faces nord et sud de l’aimant se situent sont sont positionnés comme sur l’image ci-dessous (vous pouvez utiliser une pièce de 5 centimes pour savoir quelles faces du cube sont aimantées)  
                        
-![image]()
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_34.png)
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_35.png)
 
   *Figure 34 :  aimant et vis réalité                                        Figure 35 :  face de l’aimant* 
 
 * Insérez l’écrou dans la girouette :
 * 
-![image]()
+![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_36.png)
 
   *Figure 36 :  girouette*  
     
     
 * Mettez le nez de la girouette et le capuchon de l’écrou :  
 
-    ![image]()
+    ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_37.png)
   
   *Figure 37 :  girouette montée*
 
@@ -252,22 +252,22 @@ Montage :
     
 * Montez la girouette sur la partie haute et vérifiez que la girouette est correctement équilibrée en la mettant horizontalement et vérifiant qu’elle ne tourne pas et faites le même test que pour les coupelles pour vérifier le serrage :  
 
-  ![image]()
-  ![image]()
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_38.png)
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_39.png)
 
          *Figure 38 :  montage de la girouette vue de côté                 Figure 39 :  montage vue de dessus* 
 
 * Insérez la carte électronique comme sur les photos et mettez la tige de carbone (coupez-la à la longueur que vous voulez, 25cm est une bonne taille). Vous pouvez fixer la carte électronique avec 2 vis M3 de 6mm.  
 
-  ![image]()
-  ![image]()                           
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_40.png)
+  ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_41.png)                           
   *Figure 40 : insertion de la carte électronique                   Figure 41 : montage vue de dessus*
 
 
     
 * Finissez de monter l’anémomètre en vissant la partie basse et haute :  
 
-    ![image]()
+    ![image](https://github.com/jmoulin971/SedNavOrg.github.io/blob/b199b9a4403e03c94fe2067f9072c99c40f83095/docs/an%C3%A9mom%C3%A8tre/photos/figure_42.png)
   
   *Figure 42 : montage final*
 
