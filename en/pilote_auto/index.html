@@ -61,6 +61,8 @@
     
       <link rel="stylesheet" href="../../css/timeago.css">
     
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -283,32 +285,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../glossaire/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Glossaire
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
       <a href="../liste_materiel/" class="md-tabs__link">
         
   
   
     
   
-  Liste materiel
+  Liste matériel
 
       </a>
     </li>
@@ -413,6 +396,25 @@
   
 
       
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../glossaire/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossaire
+
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -499,33 +501,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossaire/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Glossaire
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../liste_materiel/" class="md-nav__link">
         
   
@@ -533,7 +508,7 @@
   <span class="md-ellipsis">
     
   
-    Liste materiel
+    Liste matériel
   
 
     
@@ -620,10 +595,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -641,8 +616,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -811,7 +786,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#carte-principale" class="md-nav__link">
+  <a href="#lien_carte_principale" class="md-nav__link">
     <span class="md-ellipsis">
       
         Carte principale
@@ -823,17 +798,6 @@
         
       </ul>
     </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        
-      
-    </span>
-  </a>
   
 </li>
         
@@ -916,6 +880,33 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -967,11 +958,7 @@
 
 
 <h1 id="pilote-automatique">Pilote automatique<a class="headerlink" href="#pilote-automatique" title="Permanent link">&para;</a></h1>
-<ol>
-<li>
 <h2 id="presentation-du-systeme">Présentation du système<a class="headerlink" href="#presentation-du-systeme" title="Permanent link">&para;</a></h2>
-</li>
-</ol>
 <p>Le pilote automatique est la partie qui permet de barrer le bateau de manière autonome sans intervention humaine. Cela permet à l’utilisateur de tenir un cap ou un angle au vent de manière fiable tout en se reposant ou en faisant autre chose puisque le système agit sur la barre du bateau.</p>
 <p>Pour mieux comprendre le fonctionnement du pilote automatique, voici ci-dessous un schéma des composants principaux de celui-ci : </p>
 <figure id="__figure-caption_1">
@@ -1043,15 +1030,9 @@
 <li>
 <p>Thermorésistance : communiquer la température du pont pour lancer une alerte en cas de surchauffe</p>
 </li>
-<li>
-<h2 id="montage">Montage<a class="headerlink" href="#montage" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<h3 id="partie-hardware">Partie Hardware<a class="headerlink" href="#partie-hardware" title="Permanent link">&para;</a></h3>
-</li>
-</ol>
-</li>
 </ul>
+<h2 id="montage">Montage<a class="headerlink" href="#montage" title="Permanent link">&para;</a></h2>
+<h3 id="partie-hardware">Partie <abbr title="Éléments matériels d’un système (ex : un câble, une résistance …)">Hardware</abbr><a class="headerlink" href="#partie-hardware" title="Permanent link">&para;</a></h3>
 <p>Pour débuter le montage du pilote automatique, il faut commencer par la partie hardware. Pour cela, il vous faudra les différents éléments de montage (présents dans la partie : Liste du matériel nécessaire, partie pilote automatique).<br />
 Il vous faudra également les outils suivants : </p>
 <ul>
@@ -1072,7 +1053,7 @@ Il vous faudra également les outils suivants : </p>
 </li>
 </ul>
 <figure id="__figure-caption_6">
-<p><img alt="connecteurs à pics" src="../../assets/pilote_auto/image6.png" />  </p>
+<p><img alt="connecteurs à pics" src="../../assets/pilote_auto/image6.jpeg" />  </p>
 <figcaption>
 <p><span class="caption-prefix">Figure 6.</span> connecteurs à pics</p>
 </figcaption>
@@ -1087,7 +1068,7 @@ Il vous faudra également les outils suivants : </p>
 </figcaption>
 </figure>
 <ul>
-<li>Connecteurs de bornier : </li>
+<li><abbr title="Connecteur vert qui permet de connecter les câbles aux cartes électroniques.">Connecteurs de bornier</abbr> : </li>
 </ul>
 <figure id="__figure-caption_8">
 <p><img alt="connecteurs de bornier" src="../../assets/pilote_auto/image8.png" />  </p>
@@ -1096,11 +1077,7 @@ Il vous faudra également les outils suivants : </p>
 </figcaption>
 </figure>
 <p>Cela permet de ne pas souder directement les composants sur la carte et donc de pouvoir les remplacer plus facilement en cas de dysfonctionnement. </p>
-<ol>
-<li>
 <h4 id="compas">Compas<a class="headerlink" href="#compas" title="Permanent link">&para;</a></h4>
-</li>
-</ol>
 <p>Pour rappel, le compas est l’outil qui permet de connaître le cap du bateau et de communiquer cette information avec la carte principale pour que le pilote automatique corrige le cap.<br />
 Voici l’objectif final du montage :   </p>
 <figure id="__figure-caption_9">
@@ -1166,16 +1143,12 @@ Voici l’objectif final du montage :   </p>
 <p><span class="caption-prefix">Figure 11.</span> sens du I2C</p>
 </figcaption>
 </figure>
-<p>On remarque le le point noir donne le sens, ici il est du côté de l’arrondi présent en dessous de U1</p>
+<p>On remarque que le point noir donne le sens, il est ici du côté de l’arrondi présent en dessous de U1</p>
 <ul>
-<li>
-<p>Pour les quatre fils, il n’y a pas d’ordre non plus. Il faut juste que le fil branché au GND sur cette carte soit également branché au GND sur la carte principale (le montage sera détaillé dans la <a href="#carte-principale">partie 6.2.1.3</a>) et de même pour les 3 autres fils. De manière générale dans les montages électriques et électroniques, les couleurs n’ont pas vraiment d’importance sauf pour le noir qui concerne les fils reliés à la masse et donc GND (ground) en anglais mais vous êtes bien entendus libres de mettre les couleurs que vous préférez.</p>
-</li>
-<li>
-<h4 id="carte-de-controle">Carte de contrôle<a class="headerlink" href="#carte-de-controle" title="Permanent link">&para;</a></h4>
-</li>
+<li>Pour les quatre fils, il n’y a pas d’ordre non plus. Il faut juste que le fil branché au GND sur cette carte soit également branché au GND sur la carte principale (le montage sera détaillé dans la <a href="#lien_carte_principale">partie 6.2.1.3</a>) et de même pour les 3 autres fils. De manière générale dans les montages électriques et électroniques, les couleurs n’ont pas vraiment d’importance sauf pour le noir qui concerne les fils reliés à la masse et donc GND (ground) en anglais mais vous êtes bien entendus libres de mettre les couleurs que vous préférez.</li>
 </ul>
-<p>Pour rappel, la carte de contrôle permet de contrôler le pilote automatique sans l’IHM, de manière indépendante. L’écran sert à afficher les différents menus et le cap du compas (172 dans la figure ci-dessous). Les boutons permettent de naviguer dans les menus et de modifier les paramètres pour paramétrer le pilote automatique.</p>
+<h4 id="carte-de-controle">Carte de contrôle<a class="headerlink" href="#carte-de-controle" title="Permanent link">&para;</a></h4>
+<p>Pour rappel, la carte de contrôle permet de contrôler le pilote automatique sans l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr>, de manière indépendante. L’écran sert à afficher les différents menus et le cap du compas (172 dans la figure ci-dessous). Les boutons permettent de naviguer dans les menus et de modifier les paramètres pour paramétrer le pilote automatique.</p>
 <p>Voici l’objectif final du montage : </p>
 <figure id="__figure-caption_12">
 <p><img alt="face recto de la carte de contrôle" src="../../assets/pilote_auto/image12.png" />  </p>
@@ -1235,12 +1208,8 @@ Voici l’objectif final du montage :   </p>
 </figcaption>
 </figure>
 <p>Vous pouvez imprimer en 3D des cylindres (⌀ : 6 mm, hauteur : 9 mm), avant de le coller ou bien mettre des pions en bois. Le tout est de mettre un matériau isolant pour supporter les touches en porte à faux et éviter de les abîmer.</p>
-<ol>
-<li>
-<h4 id="carte-principale">Carte principale<a class="headerlink" href="#carte-principale" title="Permanent link">&para;</a></h4>
-</li>
-</ol>
-<p>La carte principale est celle qui centralise les informations et qui permet de contrôler la barre. De plus, le raspberry assure la communication avec l’IHM et permet donc l’échange d’informations entre celui-ci et le pilote automatique.<br />
+<h4 id="lien_carte_principale">Carte principale<a class="headerlink" href="#lien_carte_principale" title="Permanent link">&para;</a></h4>
+<p>La carte principale est celle qui centralise les informations et qui permet de contrôler la barre. De plus, le raspberry assure la communication avec l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> et permet donc l’échange d’informations entre celui-ci et le pilote automatique.<br />
 Voici le montage final :   </p>
 <figure id="__figure-caption_15">
 <p><img alt="carte principale" src="../../assets/pilote_auto/image15.png" />  </p>
@@ -1267,7 +1236,7 @@ Voici le montage final :   </p>
 <tbody>
 <tr>
 <td style="text-align: left;">J1, J2, J3, J5, J7, J8</td>
-<td style="text-align: left;">Connecteurs de bornier</td>
+<td style="text-align: left;"><abbr title="Connecteur vert qui permet de connecter les câbles aux cartes électroniques.">Connecteurs de bornier</abbr></td>
 <td style="text-align: left;">Aucunes</td>
 </tr>
 <tr>
@@ -1555,12 +1524,7 @@ Voici le montage final :   </p>
 <ul>
 <li>Sur J5, les connexions : in 12V, In12+ et In Seat sont connectées directement sur le PCB respectivement à Out 12V-, Out12+ et Out Seat.</li>
 </ul>
-<h3 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
-<ol>
-<li>
-<h3 id="partie-software">Partie Software<a class="headerlink" href="#partie-software" title="Permanent link">&para;</a></h3>
-</li>
-</ol>
+<h3 id="partie-software">Partie <abbr title="Éléments immatériels d’un système (ex : logiciels)">Software</abbr><a class="headerlink" href="#partie-software" title="Permanent link">&para;</a></h3>
 <p>Pour ce qui est de la partie software, tous les codes proviennent de Github et peuvent y être téléchargés.<br />
 Liens à ajouter<br />
 Le matériel nécessaire pour effectuer tout cela, est le suivant : </p>
@@ -1568,16 +1532,12 @@ Le matériel nécessaire pour effectuer tout cela, est le suivant : </p>
 <li>un câble USB type A - Micro USB pour alimenter le Raspberry Pi Zero et faire quelques tests  </li>
 <li>un câble USB type A - Mini USB type B pour alimenter la carte Arduino Nano et téléverser les codes dessus  </li>
 <li>un lecteur de carte SD  </li>
-<li>
-<p>une carte SD d’au moins 2 GB</p>
-</li>
-<li>
-<h4 id="raspberry-pi-zero">Raspberry Pi Zero<a class="headerlink" href="#raspberry-pi-zero" title="Permanent link">&para;</a></h4>
-</li>
+<li>une carte SD d’au moins 2 GB</li>
 </ul>
-<p>Dans ce passage nous détaillons le processus de connexion du pilote automatique à l’IHM.<br />
+<h4 id="raspberry-pi-zero">Raspberry Pi Zero<a class="headerlink" href="#raspberry-pi-zero" title="Permanent link">&para;</a></h4>
+<p>Dans ce passage nous détaillons le processus de connexion du pilote automatique à l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr>.<br />
 Cela permettra de centraliser les informations et de pouvoir contrôler le pilote automatique sur l’écran principal.<br />
-Vous devez déjà avoir téléchargé pypilot sur l’IHM (partie 4.4).<br />
+Vous devez déjà avoir téléchargé pypilot sur l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> (partie 4.4).<br />
 Le Raspberry Pi a le rôle d’ordinateur pour le pilote automatique, c’est lui qui transfère les informations au programme OpenCPN et qui gère les différentes informations reçues dans le pilote automatique en général (affichage sur l’écran LCD, données du compas, …). Il faut donc “flasher” le programme de base de cet ordinateur, qui est sous la forme d’une image sur la carte SD du Raspberry Pi.</p>
 <p>Pour cela : </p>
 <ul>
@@ -1586,7 +1546,7 @@ Le Raspberry Pi a le rôle d’ordinateur pour le pilote automatique, c’est lu
 <li>Pour flasher l’image sur la carte SD, installez le logiciel raspberry Pi imager : <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a>   </li>
 <li>Une fois le logiciel installé et les instructions de mise en route suivies, vous pouvez flasher l’image  </li>
 <li>Sélectionnez le modèle de raspberry (ici le Raspberry Pi 0 W)  </li>
-<li>Sélectionnez ensuite l’utilisation d’une image personnalisée comme OS, et allez chercher celle que vous venez de télécharger  </li>
+<li>Sélectionnez ensuite l’utilisation d’une image personnalisée comme <abbr title="Operating System, quelques exemples sont Windows, MacOS ou encore linux">OS</abbr>, et allez chercher celle que vous venez de télécharger  </li>
 <li>Vous pouvez maintenant choisir le stockage que vous souhaitez utiliser, et lancer l’écriture</li>
 </ul>
 <p>Une fois que vous avez flashé l’image, insérez la carte SD dans le Raspberry PI Zero, puis<br />
@@ -1607,7 +1567,7 @@ Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure
 </figure>
 <p>On observe ici le point d’accès qui a été créé ainsi que notre PC qui est connecté au réseau (c’est l’adresse IP 192.168.14.109) </p>
 <figure id="__figure-caption_20">
-<p>Il faut ensuite changer l’onglet de Master (AP) à Manage (client) cela signifie que le raspberry passe de manager du réseau à client et nous allons le configurer pour être Client du réseau créé par l’IHM comme sur la figure suivante : <br />
+<p>Il faut ensuite changer l’onglet de Master (AP) à Manage (client) cela signifie que le raspberry passe de manager du réseau à client et nous allons le configurer pour être Client du réseau créé par l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> comme sur la figure suivante : <br />
 <img alt="configuration client" src="../../assets/pilote_auto/image19.png" />  </p>
 <figcaption>
 <p><span class="caption-prefix">Figure 20.</span> configuration client</p>
@@ -1615,12 +1575,12 @@ Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure
 </figure>
 <p>Complétez les champs suivants : </p>
 <ul>
-<li>SSID par celui configuré dans l’IHM (attention aux majuscules, il faut bien mettre exactement le même nom)   </li>
-<li>Client Clé par le code renseigné dans l’IHM (partie 4.2.5)  </li>
-<li>adresse du mode client avec une adresse IP compatible avec celles configurées dans l’IHM (partie 4.2.5) et notez l’adresse IP, on en aura besoin plus tard</li>
+<li>SSID par celui configuré dans l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> (attention aux majuscules, il faut bien mettre exactement le même nom)   </li>
+<li>Client Clé par le code renseigné dans l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> (partie 4.2.5)  </li>
+<li>adresse du mode client avec une adresse IP compatible avec celles configurées dans l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> (partie 4.2.5) et notez l’adresse IP, on en aura besoin plus tard</li>
 </ul>
 <p>Puis cliquez sur Submit, débranchez la carte du PC avant de la rebrancher sur la carte principale pour “reboot” la carte et valider l’opération.<br />
-Dans OpenCPN (sur l’IHM) lancez le plugin pypilot et cliquez sur AP comme sur la figure suivante : </p>
+Dans OpenCPN (sur l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr>) lancez le plugin pypilot et cliquez sur AP comme sur la figure suivante : </p>
 <figure id="__figure-caption_21">
 <p><img alt="connexion pypilot" src="../../assets/pilote_auto/image20.png" />  </p>
 <figcaption>
@@ -1639,16 +1599,12 @@ Dans OpenCPN (sur l’IHM) lancez le plugin pypilot et cliquez sur AP comme sur 
 <li>Problème de carte SD du raspberry PI  </li>
 <li>Mauvaise adresse IP  </li>
 <li>Mauvaise configuration de pypilot  </li>
-<li>Mauvaise configuration du point d’accès de l’IHM (partie 4.2.5)</li>
+<li>Mauvaise configuration du point d’accès de l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> (partie 4.2.5)</li>
 </ul>
 <p>Reprenez les étapes précédentes ou renseignez vous sur le forum en cas de problème.</p>
 <p>Une fois validé, vous pouvez observer le message : Connecté à OpenCPN sur l’écran LCD du pilote automatique dans le menu : settings -&gt; control -&gt; Wifi et les informations préalablement renseignées.<br />
-Ceci clos la connexion entre le pilote automatique et l’IHM, maintenant toutes les informations trouvables sur le site web ou sur l’écran LCD se retrouve sur l’IHM (notamment le cap du compas et le cap désiré).</p>
-<ol>
-<li>
+Ceci clos la connexion entre le pilote automatique et l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr>, maintenant toutes les informations trouvables sur le site web ou sur l’écran LCD se retrouve sur l’<abbr title="Interface Homme Machine, partie qui fait le lien entre l’utilisateur et le système pour faciliter l’utilisation des différents outils.">IHM</abbr> (notamment le cap du compas et le cap désiré).</p>
 <h4 id="arduino-nano">Arduino Nano<a class="headerlink" href="#arduino-nano" title="Permanent link">&para;</a></h4>
-</li>
-</ol>
 <p>La carte arduino Nano a pour rôle d’envoyer les commandes au moteur en fonction des données reçues par le compas. Pour cela, il faut lui donner le programme qu’elle devra suivre.<br />
 Afin de téléverser ce programme, vous pouvez télécharger l’IDE Arduino depuis leur page web, et suivre les étapes d’initialisation :<br />
 <a href="https://www.arduino.cc/en/software/">https://www.arduino.cc/en/software/</a><br />
@@ -1683,7 +1639,7 @@ Vérifier s’il faut ouvrir un workspace ou bien si le fichier .ino suffit</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="23 janvier 2026 16:56:39 UTC"><span class="timeago" datetime="2026-01-23T16:56:39+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="23 janvier 2026 16:56:39 UTC">2026-01-23</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="7 février 2026 19:10:11 UTC"><span class="timeago" datetime="2026-02-07T19:10:11+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="7 février 2026 19:10:11 UTC">2026-02-07</span>
   </span>
 
     
@@ -1711,6 +1667,11 @@ Vérifier s’il faut ouvrir un workspace ou bien si le fichier .ino suffit</p>
     
     <nav>
       
+        <a href="https://github.com/vale075" class="md-author" title="@vale075">
+          
+          <img src="../../assets/external/avatars.githubusercontent.com/u/63117317.fe356448.jpg" alt="vale075">
+        </a>
+      
         <a href="https://github.com/Arenion" class="md-author" title="@Arenion">
           
           <img src="../../assets/external/avatars.githubusercontent.com/u/185614576.fe356448.png" alt="Arenion">
@@ -1719,11 +1680,6 @@ Vérifier s’il faut ouvrir un workspace ou bien si le fichier .ino suffit</p>
         <a href="https://github.com/web-flow" class="md-author" title="@web-flow">
           
           <img src="../../assets/external/avatars.githubusercontent.com/u/19864447.fe356448.png" alt="web-flow">
-        </a>
-      
-        <a href="https://github.com/vale075" class="md-author" title="@vale075">
-          
-          <img src="../../assets/external/avatars.githubusercontent.com/u/63117317.fe356448.jpg" alt="vale075">
         </a>
       
       
