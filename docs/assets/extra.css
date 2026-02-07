@@ -1,0 +1,41 @@
+/* Initialize the counter on the main article container */
+article {
+  counter-reset: h2-counter;
+}
+
+/* Number H2 headings */
+h2:not(#__comments) {
+  counter-reset: h3-counter;
+}
+
+h2:not(#__comments)::before {
+  counter-increment: h2-counter;
+  content: counter(h2-counter) ". ";
+}
+
+/* Number H3 headings */
+h3 {
+  counter-reset: h4-counter;
+}
+
+h3::before {
+  counter-increment: h2-counter "." counter(h3-counter);
+  counter-increment: h3-counter;
+  content: counter(h2-counter) "." counter(h3-counter) ". ";
+}
+
+/* Number H4 headings */
+h4 {
+  counter-reset: h5-counter;
+}
+
+h4::before {
+  counter-increment: h2-counter "." h3-counter "." counter(h4-counter);
+  counter-increment: h4-counter;
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) ". ";
+}
+
+.md-content__inner img:not(aside img) {
+  max-width: min(50vw, 100%);
+  max-height: 50vh;
+}

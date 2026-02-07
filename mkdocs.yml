@@ -46,6 +46,8 @@ theme:
     - navigation.sections
     - navigation.path
     - toc.integrate
+extra_css:
+  - assets/extra.css
 markdown_extensions:
   - abbr
   - attr_list
@@ -67,6 +69,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tilde
   - admonition
   - pymdownx.details
   - pymdownx.blocks.caption
@@ -96,3 +99,4 @@ plugins:
       repository: SedNavOrg/SedNavOrg.github.io
       branch: main
   - mkdocs-nav-weight
+  - macros

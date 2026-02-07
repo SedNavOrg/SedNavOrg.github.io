@@ -28,7 +28,7 @@ Insérer la carte SD dans le Raspberry Pi, connecter les périphériques (écran
 ### Installation et mise à jour des applications
 
 Allez dans le panneau en haut à droite.  
-A moins d’être précisé autrement, l’installation des applications sera faite via l’application Settings (accessible depuis le bouton en haut à gauche). Dans Settings, cliquer sur Add sources puis sur add candidates. Si à un moment ultérieur vous avez besoin de mettre à jour une application, re-cliquez sur add candidates pour avoir les mises à jour.
+À moins d’être précisé autrement, l’installation des applications sera faite via l’application `Settings` (accessible depuis le bouton en haut à gauche). Dans `Settings`, cliquer sur `Add sources` puis sur `add candidates`. Si vous avez besoin à un moment ultérieur de mettre à jour une application, re-cliquez sur `add candidates` pour avoir les mises à jour.
 
 ![Applications disponibles dans OpenPlotter](assets/ihm/image2.png)
 /// figure-caption
@@ -37,7 +37,7 @@ Applications disponibles dans OpenPlotter
 
 ### Installation de Signal K
 
-Dans settings, installez *Signal K installer* :  
+Dans `settings`, installez *Signal K installer* :  
 Une fois cet *installer* installé, vous pouvez vous connecter au serveur de Signal K en vous connectant ainsi :   
 Ouvrir Chromium (ou Firefox) et tapez [https://localhost:3000](https://localhost:3000) dans la barre d’adresse.  
 Vous pouvez aussi utiliser [ceci](https://github.com/SedNavOrg/SedNavOrg.github.io/blob/main/ihm/ouverture_site.sh), qui le fait pour vous.
@@ -47,15 +47,15 @@ Une fois connecté, vous avez une demande pour créer un compte administrateur, 
 ### Installation d’OpenCPN
 
 Comme précédemment, installez OpenCPN via settings:  
-Sur l’installer, cliquez sur *check versions*, puis dans *install*, sélectionnez la version *Backport* (c’est celle la plus à jour)
+Sur l’installer, cliquez sur `check versions`, puis dans `install`, sélectionnez la version *Backport* (c’est celle la plus à jour)
 
 ![Installateur d’OpenCPN](assets/ihm/image3.png)
 /// figure-caption
 Installateur d’OpenCPN
 ///
 
-Une fois OpenCPN installé, il faut connecter OpenCPN au serveur Signal K : allez dans *Options* puis dans *Connection* et dans la section *“configure a new connection”*, sélectionnez network.  
-Comme protocole, choisissez Signal k, comme adresse *Localhost* et comme port *3000*. Laissez l’option automatic server discovery décochée (voir figure ci-dessous).
+Une fois OpenCPN installé, il faut connecter OpenCPN au serveur Signal K : allez dans `Options` puis dans `Connection` et dans la section **“configure a new connection”**, sélectionnez network.  
+Comme protocole, choisissez Signal k, comme adresse **Localhost** et comme port **3000**. Laissez l’option automatic server discovery décochée (voir figure ci-dessous).
 
 ![Connexion entre OpenCPN et Signal K](assets/ihm/image4.png)
 /// figure-caption
@@ -75,11 +75,11 @@ Vous avez à votre disposition 2 solutions :
     ```
 
 === "Mise en place manuelle"
-    1. Dans le panneau de configuration DU Wifi, en haut à droite :   
-      Dans Advanced Options \> Create Wireless Hotspot \> Create New Wi-Fi Hotspot (photo)  
+    1. Dans le panneau de configuration du Wifi, en haut à droite :   
+      Dans `Advanced Options` \> `Create Wireless Hotspot` \> `Create New Wi-Fi Hotspot` (photo)  
       Créer le réseau Wifi :   
     2. Choisir le nom, le mot de passe (wifi security)  
-    3. Dans Advanced Options \> Edit Connections   
+    3. Dans `Advanced Options` \> `Edit Connections`  
     4. Sélectionner le réseau créé (photo)
 
     5. Sélectionner :   

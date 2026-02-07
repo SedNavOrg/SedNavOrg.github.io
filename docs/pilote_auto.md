@@ -3,7 +3,7 @@ weight: 6
 ---
 # Pilote automatique
 
-   1. ## Présentation du système
+## Présentation du système
 
 Le pilote automatique est la partie qui permet de barrer le bateau de manière autonome sans intervention humaine. Cela permet à l’utilisateur de tenir un cap ou un angle au vent de manière fiable tout en se reposant ou en faisant autre chose puisque le système agit sur la barre du bateau.
 
@@ -73,9 +73,9 @@ Détail des composants :
 
 * Thermorésistance : communiquer la température du pont pour lancer une alerte en cas de surchauffe
 
-  2. ## Montage 
+## Montage 
 
-     1. ### Partie Hardware
+### Partie Hardware
 
 Pour débuter le montage du pilote automatique, il faut commencer par la partie hardware. Pour cela, il vous faudra les différents éléments de montage (présents dans la partie : Liste du matériel nécessaire, partie pilote automatique).  
 Il vous faudra également les outils suivants : 
@@ -94,7 +94,7 @@ Recommandations pour les soudures :
 
   * Des connecteurs à pics : 
 
-![connecteurs à pics](assets/pilote_auto/image6.png)  
+![connecteurs à pics](assets/pilote_auto/image6.jpeg)  
 ///figure-caption
 connecteurs à pics
 ///
@@ -116,7 +116,7 @@ connecteurs de bornier
 
 Cela permet de ne pas souder directement les composants sur la carte et donc de pouvoir les remplacer plus facilement en cas de dysfonctionnement. 
 
-1. #### Compas
+#### Compas
 
 Pour rappel, le compas est l’outil qui permet de connaître le cap du bateau et de communiquer cette information avec la carte principale pour que le pilote automatique corrige le cap.  
 Voici l’objectif final du montage :   
@@ -153,12 +153,12 @@ sens du I2C
 ///
 
 
-On remarque le le point noir donne le sens, ici il est du côté de l’arrondi présent en dessous de U1
+On remarque que le point noir donne le sens, il est ici du côté de l’arrondi présent en dessous de U1
 
-* Pour les quatre fils, il n’y a pas d’ordre non plus. Il faut juste que le fil branché au GND sur cette carte soit également branché au GND sur la carte principale (le montage sera détaillé dans la [partie 6.2.1.3](#carte-principale)) et de même pour les 3 autres fils. De manière générale dans les montages électriques et électroniques, les couleurs n’ont pas vraiment d’importance sauf pour le noir qui concerne les fils reliés à la masse et donc GND (ground) en anglais mais vous êtes bien entendus libres de mettre les couleurs que vous préférez.
+* Pour les quatre fils, il n’y a pas d’ordre non plus. Il faut juste que le fil branché au GND sur cette carte soit également branché au GND sur la carte principale (le montage sera détaillé dans la [partie 6.2.1.3](#lien_carte_principale)) et de même pour les 3 autres fils. De manière générale dans les montages électriques et électroniques, les couleurs n’ont pas vraiment d’importance sauf pour le noir qui concerne les fils reliés à la masse et donc GND (ground) en anglais mais vous êtes bien entendus libres de mettre les couleurs que vous préférez.
 
 
-  2. #### Carte de contrôle 
+#### Carte de contrôle 
 
 Pour rappel, la carte de contrôle permet de contrôler le pilote automatique sans l’IHM, de manière indépendante. L’écran sert à afficher les différents menus et le cap du compas (172 dans la figure ci-dessous). Les boutons permettent de naviguer dans les menus et de modifier les paramètres pour paramétrer le pilote automatique.
 
@@ -196,7 +196,7 @@ supports
 
 Vous pouvez imprimer en 3D des cylindres (⌀ : 6 mm, hauteur : 9 mm), avant de le coller ou bien mettre des pions en bois. Le tout est de mettre un matériau isolant pour supporter les touches en porte à faux et éviter de les abîmer.
 
-3. #### Carte principale  {#carte-principale}
+#### Carte principale {: #lien_carte_principale }
 
 La carte principale est celle qui centralise les informations et qui permet de contrôler la barre. De plus, le raspberry assure la communication avec l’IHM et permet donc l’échange d’informations entre celui-ci et le pilote automatique.  
 Voici le montage final :   
@@ -295,9 +295,7 @@ Remarques:
 
 * Sur J5, les connexions : in 12V, In12+ et In Seat sont connectées directement sur le PCB respectivement à Out 12V-, Out12+ et Out Seat.
 
-### 
-
-2. ### Partie Software 
+### Partie Software 
 
 Pour ce qui est de la partie software, tous les codes proviennent de Github et peuvent y être téléchargés.  
 Liens à ajouter  
@@ -308,7 +306,7 @@ Le matériel nécessaire pour effectuer tout cela, est le suivant :
 * un lecteur de carte SD  
 * une carte SD d’au moins 2 GB
 
-  1. #### Raspberry Pi Zero
+#### Raspberry Pi Zero
 
 Dans ce passage nous détaillons le processus de connexion du pilote automatique à l’IHM.  
 Cela permettra de centraliser les informations et de pouvoir contrôler le pilote automatique sur l’écran principal.  
@@ -383,7 +381,7 @@ Reprenez les étapes précédentes ou renseignez vous sur le forum en cas de pro
 Une fois validé, vous pouvez observer le message : Connecté à OpenCPN sur l’écran LCD du pilote automatique dans le menu : settings \-\> control \-\> Wifi et les informations préalablement renseignées.  
 Ceci clos la connexion entre le pilote automatique et l’IHM, maintenant toutes les informations trouvables sur le site web ou sur l’écran LCD se retrouve sur l’IHM (notamment le cap du compas et le cap désiré).
 
-2. #### Arduino Nano
+#### Arduino Nano
 
 La carte arduino Nano a pour rôle d’envoyer les commandes au moteur en fonction des données reçues par le compas. Pour cela, il faut lui donner le programme qu’elle devra suivre.  
 Afin de téléverser ce programme, vous pouvez télécharger l’IDE Arduino depuis leur page web, et suivre les étapes d’initialisation :  
