@@ -24,13 +24,50 @@ Pour obtenir la vitesse du vent, l’anémomètre utilise 4 aimants où on alter
 Coupelles de l’anémomètre
 ///
 
-## Fabrication de la carte électronique
+## La carte électronique {: #carte-électronique }
 
-TODO
+### Sourcer les composants
+La carte électronique est composé presque uniquement de composants traversants (THT). L'unique composant monté en surface (SMD) est l'AS5600, un codeur magnétique permettant de mesurer la direction du vent.  
+Il est cependant possible de commander la carte électronique avec ce composant déjà soudé dessus.
+
+#### Composants
+| Composant | Cout moyen | Digikey | Mouser | Autre |
+|---|---|---|---|---|
+| XIAO ESP32c6 | 5€ | [Lien](https://www.digikey.fr/short/4frwwf37) | [Lien](https://mou.sr/4bHflRI) | [SeeedStudio](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html) |
+| AS5600-ASOT | 3€ | [Lien](https://www.digikey.fr/short/qvdwf4bj) | [Lien](https://mou.sr/4tvgfar) |  |
+| SS411P | 1.80€ | [Lien](https://www.digikey.fr/short/nqzmqjf7) | [Lien](https://mou.sr/4kmuytz) |  |
+| DS18B20 | 4€ | [Lien](https://www.digikey.fr/short/bdm2f892) | [Lien](https://mou.sr/477zQSe) |  |
+| R-78E3.3-0.5 | 3€ | [Lien](https://www.digikey.fr/short/mcqqzwh5) | [Lien](https://mou.sr/4tmR8X5) |  |
+| Screw Terminals 2.54mm Pitch 2-Pin | .80€ | [Lien](https://www.digikey.fr/short/wpwrbm4c) | [Lien](https://mou.sr/4knDor3) |  |
+| Condensateur céramique 100nF | .25€ | [Lien](https://www.digikey.fr/short/2dmd3v43) |  |  |
+| Résistance de 4.7kOhm **x3** | .10€ | [Lien](https://www.digikey.fr/short/qmz2z9nq) |  | Voir sur amazon ou aliexpress, souvant acheté dans un kit de résistances. Ne dois pas être trop gros pour rentrer sur la carte. |
+| Diode SB160 | .20€ | [Lien](https://www.digikey.fr/short/zb19wj32) | [Lien](https://mou.sr/4r0NSz1) |  |
+
+#### PCB
+
+Pour commander le PCB, vous pouvez utiliser plusieurs fabricants :
+
+| Fabricant | Nationalité | Cout | Fichier à uploader | Notes |
+|---|---|---|---|---|
+| [Aisler](https://aisler.net/fr) | Allemagne | 19,03€ pour trois | `***.kicad_pcb` | En utilisant le service `Beautiful Boards`. Très facile à configurer. |
+| [JLCPCB](https://cart.jlcpcb.com/quote) | Chine | 20-30€ pour cinq avec l'AS5600 préassemblé |  `JLCPCB Production Files/GERBER.zip` | Testé. Offre un service d'assemblage bas coût pratique pour faire assembler l'AS5600-ASOT |
+| [PCBWay](https://www.pcbway.com/orderonline.aspx) | Chine | 10-30€ pour cinq (dépend de la livraison) | `PCBWay Production Files/GERBER.zip` | Non testé. |
+
+Les fichiers peuvent être trouvés ici : [SedNavOrg/SedNav_Windsensor - v3.1 release](https://github.com/SedNavOrg/SedNav_Windsensor/releases/tag/v3.1)
+
+Guide de commande : TODO
+
+### Montage
+
+Voici une BOM interactive pour aider au sourcage des composants, et à l'assemblage du PCB :
+<iframe src="./ibom.html" style="width:100%; height:800px; border:none;"></iframe>
+[Ouvrir dans un nouvel onglet](./ibom.html){:target="_blank"}
 
 ## Installation du firmware
 
-TODO
+Pour installer le firmware, il vous suffit d'ouvrir cette page dans un navigateur chromium (chrome, edge, vivaldi, opéra, ...), de connecter en usb la carte à votre ordinateur (vous ne devez pas alimenter la carte pour cela), et de cliquer sur le bouton ci-dessous :
+<script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+<esp-web-install-button manifest="./espwebtools/manifest.json"></esp-web-install-button>
 
 ## Montage mécanique
 

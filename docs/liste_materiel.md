@@ -21,7 +21,9 @@ Le détail peut être trouvé dans chaque sous-partie.
 | clavier \+pad tactile | 1 | 36.00€ |
 
 ## Anémomètre
-
+### Carte électronique
+Voir la [section dédiée](./anémomètre/index.md#carte-électronique).
+### Mécanique
 | Composants | Site fournisseur | Prix indicatif  (HT) |
 | ----- | :---- | ----- |
 | x1 O-ring 43 \- 46 | [https://fr.rs-online.com/web/p/joints-et-joints-toriques/2556571](https://fr.rs-online.com/web/p/joints-et-joints-toriques/2556571)  | 6,41 € (lot de 5\) |
