@@ -710,13 +710,69 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fabrication-de-la-carte-electronique" class="md-nav__link">
+  <a href="#carte-électronique" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fabrication de la carte électronique
+        La carte électronique
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="La carte électronique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sourcer-les-composants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sourcer les composants
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sourcer les composants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#composants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Composants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PCB
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#montage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Montage
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -757,6 +813,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anémomètre/ibom.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM interactive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -958,10 +1042,133 @@
 <p><span class="caption-prefix">Figure 2.</span> Coupelles de l’anémomètre</p>
 </figcaption>
 </figure>
-<h2 id="fabrication-de-la-carte-electronique">Fabrication de la carte électronique<a class="headerlink" href="#fabrication-de-la-carte-electronique" title="Permanent link">&para;</a></h2>
-<p>TODO</p>
+<h2 id="carte-électronique">La carte électronique<a class="headerlink" href="#carte-électronique" title="Permanent link">&para;</a></h2>
+<h3 id="sourcer-les-composants">Sourcer les composants<a class="headerlink" href="#sourcer-les-composants" title="Permanent link">&para;</a></h3>
+<p>La carte électronique est composé presque uniquement de composants traversants (<abbr title="Through-Hole Technology">THT</abbr>). L'unique composant monté en surface (<abbr title="Surface Mounted Device">SMD</abbr>) est l'AS5600, un codeur magnétique permettant de mesurer la direction du vent.<br />
+Il est cependant possible de commander la carte électronique avec ce composant déjà soudé dessus.</p>
+<h4 id="composants">Composants<a class="headerlink" href="#composants" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Cout moyen</th>
+<th>Digikey</th>
+<th>Mouser</th>
+<th>Autre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XIAO ESP32c6</td>
+<td>5€</td>
+<td><a href="https://www.digikey.fr/short/4frwwf37">Lien</a></td>
+<td><a href="https://mou.sr/4bHflRI">Lien</a></td>
+<td><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html">SeeedStudio</a></td>
+</tr>
+<tr>
+<td>AS5600-ASOT</td>
+<td>3€</td>
+<td><a href="https://www.digikey.fr/short/qvdwf4bj">Lien</a></td>
+<td><a href="https://mou.sr/4tvgfar">Lien</a></td>
+<td></td>
+</tr>
+<tr>
+<td>SS411P</td>
+<td>1.80€</td>
+<td><a href="https://www.digikey.fr/short/nqzmqjf7">Lien</a></td>
+<td><a href="https://mou.sr/4kmuytz">Lien</a></td>
+<td></td>
+</tr>
+<tr>
+<td>DS18B20</td>
+<td>4€</td>
+<td><a href="https://www.digikey.fr/short/bdm2f892">Lien</a></td>
+<td><a href="https://mou.sr/477zQSe">Lien</a></td>
+<td></td>
+</tr>
+<tr>
+<td>R-78E3.3-0.5</td>
+<td>3€</td>
+<td><a href="https://www.digikey.fr/short/mcqqzwh5">Lien</a></td>
+<td><a href="https://mou.sr/4tmR8X5">Lien</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Screw Terminals 2.54mm Pitch 2-Pin</td>
+<td>.80€</td>
+<td><a href="https://www.digikey.fr/short/wpwrbm4c">Lien</a></td>
+<td><a href="https://mou.sr/4knDor3">Lien</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Condensateur céramique 100nF</td>
+<td>.25€</td>
+<td><a href="https://www.digikey.fr/short/2dmd3v43">Lien</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Résistance de 4.7kOhm <strong>x3</strong></td>
+<td>.10€</td>
+<td><a href="https://www.digikey.fr/short/qmz2z9nq">Lien</a></td>
+<td></td>
+<td>Voir sur amazon ou aliexpress, souvant acheté dans un kit de résistances. Ne dois pas être trop gros pour rentrer sur la carte.</td>
+</tr>
+<tr>
+<td>Diode SB160</td>
+<td>.20€</td>
+<td><a href="https://www.digikey.fr/short/zb19wj32">Lien</a></td>
+<td><a href="https://mou.sr/4r0NSz1">Lien</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="pcb"><abbr title="Printed Circuit Board">PCB</abbr><a class="headerlink" href="#pcb" title="Permanent link">&para;</a></h4>
+<p>Pour commander le <abbr title="Printed Circuit Board">PCB</abbr>, vous pouvez utiliser plusieurs fabricants :</p>
+<table>
+<thead>
+<tr>
+<th>Fabricant</th>
+<th>Nationalité</th>
+<th>Cout</th>
+<th>Fichier à uploader</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://aisler.net/fr">Aisler</a></td>
+<td>Allemagne</td>
+<td>19,03€ pour trois</td>
+<td><code>***.kicad_pcb</code></td>
+<td>En utilisant le service <code>Beautiful Boards</code>. Très facile à configurer.</td>
+</tr>
+<tr>
+<td><a href="https://cart.jlcpcb.com/quote">JLCPCB</a></td>
+<td>Chine</td>
+<td>20-30€ pour cinq avec l'AS5600 préassemblé</td>
+<td><code>JLCPCB Production Files/GERBER.zip</code></td>
+<td>Testé. Offre un service d'assemblage bas coût pratique pour faire assembler l'AS5600-ASOT</td>
+</tr>
+<tr>
+<td><a href="https://www.pcbway.com/orderonline.aspx">PCBWay</a></td>
+<td>Chine</td>
+<td>10-30€ pour cinq (dépend de la livraison)</td>
+<td><code>PCBWay Production Files/GERBER.zip</code></td>
+<td>Non testé.</td>
+</tr>
+</tbody>
+</table>
+<p>Les fichiers peuvent être trouvés ici : <a href="https://github.com/SedNavOrg/SedNav_Windsensor/releases/tag/v3.1">SedNavOrg/SedNav_Windsensor - v3.1 release</a></p>
+<p>Guide de commande : TODO</p>
+<h3 id="montage">Montage<a class="headerlink" href="#montage" title="Permanent link">&para;</a></h3>
+<p>Voici une BOM interactive pour aider au sourcage des composants, et à l'assemblage du <abbr title="Printed Circuit Board">PCB</abbr> :</p>
+<iframe src="./ibom.html" style="width:100%; height:800px; border:none;"></iframe>
+<p><a href="../../an%C3%A9mom%C3%A8tre/ibom.html" target="_blank">Ouvrir dans un nouvel onglet</a></p>
 <h2 id="installation-du-firmware">Installation du firmware<a class="headerlink" href="#installation-du-firmware" title="Permanent link">&para;</a></h2>
-<p>TODO</p>
+<p>Pour installer le firmware, il vous suffit d'ouvrir cette page dans un navigateur chromium (chrome, edge, vivaldi, opéra, ...), de connecter en usb la carte à votre ordinateur (vous ne devez pas alimenter la carte pour cela), et de cliquer sur le bouton ci-dessous :</p>
+<script type="module" src="../../assets/external/unpkg.com/esp-web-tools@10/dist/web/install-button.fbd34a2b.js"></script>
+<p><esp-web-install-button manifest="./espwebtools/manifest.json"></esp-web-install-button></p>
 <h2 id="montage-mecanique">Montage mécanique<a class="headerlink" href="#montage-mecanique" title="Permanent link">&para;</a></h2>
 <p>Pour monter l’entièreté du système, vous aurez besoin uniquement des outils suivants :</p>
 <ul>
@@ -994,7 +1201,7 @@ Le lien suivant vous permet d’accéder à la modélisation 3D de l’anémomè
 </figure>
 <p>Quelques conseils avant d’imprimer les pièces :</p>
 <ul>
-<li>Imprimez les pièces en <strong>ABS</strong> ou en <strong><abbr title="L'évolution de l'ABS, un polymère utilisé nottament pour l'impression 3D">ASA</abbr></strong> du fait de sa meilleure résistance à la chaleur.  </li>
+<li>Imprimez les pièces en <strong>ABS</strong> ou en <strong><abbr title="L'évolution de l'ABS, un polymère utilisé notamment pour l'impression 3D">ASA</abbr></strong> du fait de sa meilleure résistance à la chaleur.  </li>
 <li>Les jeux utilisés dans le dossier parts adapted 3D printing ont été fait pour une imprimante PRUSA MK3 avec une buse de 0.4mm. Les jeux ne correspondront très probablement pas avec votre imprimante. Je vous conseille d’imprimer les pièces dans <code>clearance_test</code> pour tester les jeux sur les différentes pièces du système. Dans le dossier, voici les différents tests :<br />
 <img alt="image" src="../../assets/anemometre/figure_8.1.png" /></li>
 <li><code>ball_bearing_test</code> : test pour insérer les roulements à billes  </li>
@@ -1321,7 +1528,7 @@ Pour configurer l’anémomètre (coefficients de calibration, connecter au rés
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="7 février 2026 19:10:11 UTC"><span class="timeago" datetime="2026-02-07T19:10:11+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="7 février 2026 19:10:11 UTC">2026-02-07</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="8 février 2026 00:42:50 UTC"><span class="timeago" datetime="2026-02-08T00:42:50+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="8 février 2026 00:42:50 UTC">2026-02-08</span>
   </span>
 
     
@@ -1336,34 +1543,6 @@ Pour configurer l’anémomètre (coefficients de calibration, connecter au rés
 
     
     
-    
-      
-  <span class="md-source-file__fact">
-    
-      
-  <span class="md-icon" title="Contributors">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
-  </span>
-  <span>GitHub</span>
-
-    
-    <nav>
-      
-        <a href="https://github.com/vale075" class="md-author" title="@vale075">
-          
-          <img src="../../assets/external/avatars.githubusercontent.com/u/63117317.fe356448.jpg" alt="vale075">
-        </a>
-      
-        <a href="https://github.com/Arenion" class="md-author" title="@Arenion">
-          
-          <img src="../../assets/external/avatars.githubusercontent.com/u/185614576.fe356448.png" alt="Arenion">
-        </a>
-      
-      
-      
-    </nav>
-  </span>
-
     
   </aside>
 
