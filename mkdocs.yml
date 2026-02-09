@@ -46,6 +46,7 @@ theme:
     - navigation.sections
     - navigation.path
     - toc.integrate
+copyright: 2026 &copy; SedNav | Licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPLv3</a> | <a href="https://github.com/SedNavOrg/SedNavOrg.github.io">View Source</a>
 extra_css:
   - assets/extra.css
 markdown_extensions:
