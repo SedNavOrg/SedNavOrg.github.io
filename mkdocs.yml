@@ -92,6 +92,7 @@ plugins:
   - privacy:
       assets_exclude: 
         - unpkg.com/mathjax@3/*
+        - unpkg.com/esp-web-tools@10/*
         - giscus.app/*
   - git-revision-date-localized:
       enable_creation_date: true

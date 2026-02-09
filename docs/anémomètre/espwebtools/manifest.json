@@ -4,7 +4,7 @@
   "new_install_prompt_erase": false,
   "builds": [
     {
-      "chipFamily": "ESP32C6",
+      "chipFamily": "ESP32-C6",
       "parts": [
         { "path": "SedNav_v3.1_esp32c6_firmware-merged.bin", "offset": 0 }
       ]
