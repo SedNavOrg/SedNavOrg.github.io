@@ -328,14 +328,16 @@ Attendez ensuite une minute le temps que le Raspberry se lance correctement. Mai
 
 Ensuite dans votre navigateur, entrez l’adresse IP suivante dans la barre d’adresse : 192.168.14.1  
 Cela devrait vous amener sur cette page du pilote automatique (remarque la langue et la couleur du fond peuvent être modifiée et donc différentes sur votre pilote automatique) :   
-![][image18]  
-*Figure 58 : page d’accueil pilote automatique*
+![page d’accueil pilote automatique](assets/pilote_auto/image19.png)  
+///figure-caption
+page d’accueil pilote automatique
+///
 
 Cette page web est essentielle car elle permet d'accéder à tous les paramètres du pilote automatique depuis un écran plus grand que l’écran LCD.   
 En effet, si vous utilisez le pilote automatique de manière autonome, vous pouvez accéder à toutes les données et les paramètres sur cette page web (ce sont les mêmes menus que ceux afficher sur l’écran LCD).  
 Ainsi pour les calibrations futures, vous pourrez passer par l’écran ou par ce site directement selon vos préférences.   
 Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure Wifi”, vous devez obtenir la page suivante :  
-![page de configuration Wifi](assets/pilote_auto/image18.png)  
+![page de configuration Wifi](assets/pilote_auto/image24.png)  
 ///figure-caption
 page de configuration Wifi
 ///
@@ -343,7 +345,7 @@ page de configuration Wifi
 On observe ici le point d’accès qui a été créé ainsi que notre PC qui est connecté au réseau (c’est l’adresse IP 192.168.14.109) 
 
 Il faut ensuite changer l’onglet de Master (AP) à Manage (client) cela signifie que le raspberry passe de manager du réseau à client et nous allons le configurer pour être Client du réseau créé par l’IHM comme sur la figure suivante :   
-![configuration client](assets/pilote_auto/image19.png)  
+![configuration client](assets/pilote_auto/image23.png)  
 ///figure-caption
 configuration client
 ///
