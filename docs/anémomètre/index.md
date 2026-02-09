@@ -388,8 +388,10 @@ Montage final
 
 ## Configuration logicielle
 
-Une fois alimenté, un réseau wifi intitulé `Yachta` devrait apparaitre, le mot de passe est **12345678**. En s’y connectant, et en allant sur la page web [http://192.168.5.1/](http://192.168.5.1/), vous pouvez accéder à l’interface web.  
-Pour voir les valeurs des capteurs, cliquer sur l’onglet `Wind Instrument` ou `Wind Values`.  
-Pour configurer l’anémomètre (coefficients de calibration, connecter au réseau wifi du bateau, et plus encore), cliquer sur `Device settings`. Une fois les modifications des paramètres effectués, sauvegarder en cliquant sur “Save”, puis redémarrer l’anémomètre en le débranchant ou en cliquant sur `Restart Device` sur le menu principal.
+Une fois alimenté, un réseau wifi intitulé `SedNav` devrait apparaitre, le mot de passe est **12345678**. En s’y connectant, et en allant sur la page web [http://192.168.5.1/](http://192.168.5.1/), vous pouvez accéder à l’interface web.  
+Pour voir les valeurs des mesures, cliquez sur l’onglet `Wind Instrument` ou `Wind Values`.  
+Pour configurer l’anémomètre (coefficients de calibration, se connecter au réseau wifi du bateau, et plus encore), cliquer sur `Device settings`. Une fois les modifications des paramètres effectués, sauvegarder en cliquant sur “Save”, puis redémarrer l’anémomètre en le débranchant ou en cliquant sur `Restart Device` sur le menu principal.
+
+Les coefficients de calibration par défaut pour la mesure de la vitesse du vent sont ceux des coupelles sphériques courtes (testé en soufflerie). Il est cependant nécessaire de calibrer l'offset de la direction du vent par rapport au bateau, en fonction de comment vous fixez l'anémomètre sur votre bateau.
 
 Si vous souhaitez connecter l’anémomètre à une interface Homme Machine, vous pouvez le connecter à son réseau wifi en configurant `WLAN Client SSID` et `WLAN Client Password`.
