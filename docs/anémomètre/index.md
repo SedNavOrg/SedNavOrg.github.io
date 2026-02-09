@@ -63,6 +63,26 @@ Voici une BOM interactive pour aider au sourcage des composants, et à l'assembl
 <iframe src="./ibom.html" style="width:100%; height:800px; border:none;"></iframe>
 [Ouvrir dans un nouvel onglet](./ibom.html){:target="_blank"}
 
+La hauteur du capteur à effet Hall est importante. Le dessus de celui-ci doit être à une hauteur entre 11 et 12mm de la surface de la carte électronique.  
+Un jig d'installation a été fait pour faciliter son montage :
+
+![image](../assets/anemometre/jig_install.jpeg)
+/// figure-caption
+Installation du ss411p dans le jig d'installation
+///
+
+![image](../assets/anemometre/jig_front.jpeg)
+/// figure-caption
+Vue de haut du montage sur la carte du ss411p
+///
+
+![image](../assets/anemometre/jig_back.jpeg)
+/// figure-caption
+Vue de bas du montage du ss411p
+///
+
+Il est préférable de retirer la pièce imprimée en 3D avant la soudure, pour éviter de la brûler.
+
 ## Installation du firmware
 
 Pour installer le firmware, il vous suffit d'ouvrir cette page dans un navigateur chromium (chrome, edge, vivaldi, opéra, ...), de connecter en usb la carte à votre ordinateur (vous ne devez pas alimenter la carte pour cela), et de cliquer sur le bouton ci-dessous :

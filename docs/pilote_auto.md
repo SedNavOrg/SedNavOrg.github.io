@@ -328,6 +328,7 @@ Attendez ensuite une minute le temps que le Raspberry se lance correctement. Mai
 
 Ensuite dans votre navigateur, entrez l’adresse IP suivante dans la barre d’adresse : 192.168.14.1  
 Cela devrait vous amener sur cette page du pilote automatique (remarque la langue et la couleur du fond peuvent être modifiée et donc différentes sur votre pilote automatique) :   
+
 ![page d’accueil pilote automatique](assets/pilote_auto/image19.png)  
 ///figure-caption
 page d’accueil pilote automatique
@@ -337,6 +338,7 @@ Cette page web est essentielle car elle permet d'accéder à tous les paramètre
 En effet, si vous utilisez le pilote automatique de manière autonome, vous pouvez accéder à toutes les données et les paramètres sur cette page web (ce sont les mêmes menus que ceux afficher sur l’écran LCD).  
 Ainsi pour les calibrations futures, vous pourrez passer par l’écran ou par ce site directement selon vos préférences.   
 Allez dans l’onglet “Configuration”, puis cliquez sur le lien “Configure Wifi”, vous devez obtenir la page suivante :  
+
 ![page de configuration Wifi](assets/pilote_auto/image24.png)  
 ///figure-caption
 page de configuration Wifi
@@ -345,6 +347,7 @@ page de configuration Wifi
 On observe ici le point d’accès qui a été créé ainsi que notre PC qui est connecté au réseau (c’est l’adresse IP 192.168.14.109) 
 
 Il faut ensuite changer l’onglet de Master (AP) à Manage (client) cela signifie que le raspberry passe de manager du réseau à client et nous allons le configurer pour être Client du réseau créé par l’IHM comme sur la figure suivante :   
+
 ![configuration client](assets/pilote_auto/image23.png)  
 ///figure-caption
 configuration client
@@ -378,7 +381,7 @@ Vous devriez avoir le bandeau vert après quelques secondes signifiant une réus
 * Mauvaise configuration de pypilot  
 * Mauvaise configuration du point d’accès de l’IHM (partie 4.2.5)
 
-Reprenez les étapes précédentes ou renseignez vous sur le forum en cas de problème.
+Reprenez les étapes précédentes ou renseignez-vous sur le forum en cas de problème.
 
 Une fois validé, vous pouvez observer le message : Connecté à OpenCPN sur l’écran LCD du pilote automatique dans le menu : settings \-\> control \-\> Wifi et les informations préalablement renseignées.  
 Ceci clos la connexion entre le pilote automatique et l’IHM, maintenant toutes les informations trouvables sur le site web ou sur l’écran LCD se retrouve sur l’IHM (notamment le cap du compas et le cap désiré).
@@ -394,7 +397,7 @@ Lien temporaire pour les fichiers :
 
 Une fois que vous avez téléchargé cette archive zip, vous pouvez la décompresser et mettre tous les fichiers dans le même dossier de votre ordinateur, puis renommer ce dossier “pypilotmotorcontrollerwithrudder”  
 Vous pouvez maintenant ouvrir le fichier en .ino qui se trouve dans ce dossier avec le logiciel Arduino IDE  
-Vérifier s’il faut ouvrir un workspace ou bien si le fichier .ino suffit
+Vérifier s’il faut ouvrir un workspace ou bien si le fichier .ino suffit.
 
 Vous pouvez maintenant connecter la carte arduino à votre ordinateur, choisir le modèle “Arduino Nano” dans Tools-\>Board-\>Arduino Nano, puis choisir le bon port dans Tools-\>Port  
 (Pour connaître le bon port, il suffit de tester l’étape suivante et si elle renvoie une erreur, essayez avec un autre choix)
