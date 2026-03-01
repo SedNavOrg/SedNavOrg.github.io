@@ -20,9 +20,9 @@ jobs:
             ihm
 
       - name: Install pngquant
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pngquant
+        uses: awalsh128/cache-apt-pkgs-action@v1
+        with:
+          packages: pngquant
 
       - name: Configure Git Credentials
         run: |
