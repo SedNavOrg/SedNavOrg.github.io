@@ -101,5 +101,6 @@ plugins:
   - git-committers:
       repository: SedNavOrg/SedNavOrg.github.io
       branch: main
+      enabled: !ENV [CI, false]
   - mkdocs-nav-weight
   - macros
