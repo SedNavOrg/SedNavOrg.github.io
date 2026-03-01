@@ -19,15 +19,14 @@ Pour Ubuntu:
 ```console
 git clone https://github.com/SedNavOrg/SedNavOrg.github.io.git
 cd SedNavOrg.github.io
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+pip install uv
+uv sync
 ```
-Il vous faut également la dépendance `pngquant` d'installé.
+Il vous faut également la dépendance `pngquant` installé.
 ```console
 sudo apt install -y pngquant
 ```
 Vous pouvez ensuite utiliser la commande `mkdocs serve` pour lancer un serveur web en local et voir le rendu du site.
 ```console
-mkdocs serve
+uv run mkdocs serve
 ```
