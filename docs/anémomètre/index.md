@@ -55,7 +55,19 @@ Pour commander le PCB, vous pouvez utiliser plusieurs fabricants :
 
 Les fichiers peuvent être trouvés ici : [SedNavOrg/SedNav_Windsensor - v3.1 release](https://github.com/SedNavOrg/SedNav_Windsensor/releases/tag/v3.1)
 
-Guide de commande : TODO
+##### JLCPCB - Guide de commande
+
+1. Télécharger et extraire les fichiers de production du PCB : [JLCPCB.Production.Files.-.THT.v3.1.zip](https://github.com/SedNavOrg/SedNav_Windsensor/releases/download/v3.1/JLCPCB.Production.Files.-.THT.v3.1.zip)
+1. Aller sur le site de JLCPCB : [JLCPCB - Order](https://cart.jlcpcb.com/quote)
+1. **Créez-vous un compte** (vous devrez sinon tout recommencer de zéro par la suite).
+1. Sélectionner **Standard PCB/PCBA**, **Add gerber file** et téléverser le fichier `GERBER-SedNav_Windsensor_THT.zip` : ![instructions de téléversement du gerber](../assets/anemometre/JLCPCB_gerber.png)
+1. Après traitement, vous pourrez paramétrer le PCB comme suit, en choisissant la quantité voulue (minimum 5 cartes) : ![Configuration du PCB](../assets/anemometre/JLCPCB_PCB_config.png)
+1. **Optionnel** : Vous pouvez faire assembler l'ASOT5600 (l'unique composant monté en surface) directement pas JLCPCB. Pour cela, sélectionnez **PCBA Assembly**, bien configurer (cf l'image) et choisir la quantité souhaitée : ![Configuration de l'assemblage](../assets/anemometre/JLCPCB_PCBA_config.png)  
+Ne pas prendre de Stencil.
+1. Cliquer sur **Next**
+1. Si vous avez sélectionné l'assemblage, uploader les fichiers BOM et CPL : ![Téléversement du BOM](../assets/anemometre/JLCPCB_BOM_CPL.png)  
+Puis cliquer sur **Next**. Il vous faut ensuite aligner l'ASOT5600 par rapport au PCB, comme sur l'image ci-dessous : ![Orientation de l'asot5600](../assets/anemometre/JLCPCB_orientation.png)
+1. Sélectionner la catégorie (`Temperature sensor`, mais la valeur n'a pas d'intérêt pratique). Il ne vous reste alors plus qu'à payer !
 
 ### Montage
 
